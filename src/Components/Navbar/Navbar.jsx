@@ -26,7 +26,7 @@ window.addEventListener("scroll", handleColor)
   return (
     <div className={color ? "header header-bg" : "header"}>
     <Link to="/">
-<h1>Portfolio</h1>
+
     </Link>
     <ul className={modal ? "nav-menu active" : "nav-menu"}>
         <li>
@@ -45,6 +45,9 @@ window.addEventListener("scroll", handleColor)
             <Link to="/Pricing">Pricing</Link>
         </li>
         <li>
+            <Link to="/Pricing">Classes</Link>
+        </li>
+        <li>
             <Link to="/About">About</Link>
         </li>
     </ul>
@@ -54,6 +57,38 @@ window.addEventListener("scroll", handleColor)
         
     </div>
     </div>
+    //     <header class="header">
+    //     <a href="#" id="logo">Your logo</a>
+
+    //     <nav class="navbar">
+    //         <a href="#">home</a>
+    //         <a href="#">class</a>
+    //         <a href="#">about</a>
+    //         <a href="#">gallery</a>
+    //         <a href="#">contact</a>
+    //     </nav>
+
+    //     <div class="icon">
+    //         <div id="menubar" class="fas fa-bars"></div>
+    //         <div id="user" class="fas fa-user"></div>
+    //         <div id="search" class="fas fa-search"></div>
+
+    //     </div>
+
+    //     <div class="search-form">
+    //         <div class="inner-form">
+    //             <input type="email" name="" id="" placeholder="your email">
+    //             <input type="password" name="" id="" placeholder="your password">
+    //         </div>
+    //     </div>
+
+    //     <div class="searchbar">
+    //         <div class="inner-searchbar">
+    //             <input type="search" placeholder="search......">
+    //         </div>
+    //     </div>
+
+    // </header>
   )
 }
 
