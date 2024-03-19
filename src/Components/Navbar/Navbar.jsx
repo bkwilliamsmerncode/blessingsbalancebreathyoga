@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import {FaBars, FaTimes} from "react-icons/fa";
+import Logo from "../../images/Logo.png"
+
 
 
 const Navbar = () => {
@@ -26,33 +28,38 @@ window.addEventListener("scroll", handleColor)
   return (
     <div className={color ? "header header-bg" : "header"}>
     <Link to="/">
-
+<img src={Logo} alt="logo" className='logodiv'/>
     </Link>
+    {/* <div style={{display: "flex", alignItems: "center"}}><p style={{fontSize: "80px"}}>B</p>
+    <div style={{display: "flex",   flexDirection: "column"}}>
+    <div>lessings</div>
+    <div>alance</div> 
+   <div>reath</div> 
+    </div>
+    </div> */}
     <ul className={modal ? "nav-menu active" : "nav-menu"}>
         <li>
-            <Link to="/">Home</Link>
+            <Link to="/"><p>Home</p></Link>
         </li>
         <li>
-            <Link to="/Events">Events</Link>
+            <Link to="/About"><p>About</p></Link>
         </li>
         <li>
-            <Link to="/Gallery">Gallery</Link>
+            <Link to="/Events"><p>Events</p></Link>
         </li>
         <li>
-            <Link to="/Contact">Contact</Link>
+            <Link to="/Gallery"><p>Gallery</p></Link>
         </li>
         <li>
-            <Link to="/Pricing">Pricing</Link>
+            <Link to="/Contact"><p>Contact</p></Link>
         </li>
         <li>
-            <Link to="/Pricing">Classes</Link>
+            <Link to="/Classes"><p>Services</p></Link>
         </li>
-        <li>
-            <Link to="/About">About</Link>
-        </li>
+      
     </ul>
     <div className='hamburger' onClick={() => handleModal()}>
-        {modal ? (<FaTimes size={20} style={{color: "#fff"}}/>) : (<FaBars size={20} style={{color: "#fff"}}/>)}
+        {modal ? (<FaTimes size={20} style={{color: "black", fontSize: "xx-large"}}/>) : (<FaBars size={20} style={{color: "black", fontSize: "xx-large"}}/>)}
         
         
     </div>

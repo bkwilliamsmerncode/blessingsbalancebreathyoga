@@ -4,9 +4,9 @@ import Home from "./Pages/Home";
 import Events from "./Pages/Events";
 import Gallery from "./Pages/Gallery";
 import Contact from "./Pages/Contact";
-import Pricing from "./Pages/Pricing";
 import About from "./Pages/About";
 import Classes from "./Pages/Classes";
+import UpcomingEvents from "./Pages/UpcomingEvents";
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
   <Route path="/Events" element={ <Events /> }/>
   <Route path="/Gallery" element={ <Gallery /> }/>
   <Route path="/Contact" element={ <Contact /> }/>
-  <Route path="/Pricing" element={ <Pricing /> }/>
   <Route path="/About" element={ <About /> }/>
   <Route path="/Classes" element={ <Classes /> }/>
+  <Route path="/UpcomingEvents" element={ <UpcomingEvents /> }/>
 </Routes>
 </>
   );
