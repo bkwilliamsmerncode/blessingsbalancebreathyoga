@@ -4,10 +4,17 @@
   transition: all .2s;
   text-transform: capitalize;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: Galada;
   box-sizing: border-box;
   outline: none;
 }
+
+.galada-regular {
+  font-family: "Galada", cursive;
+  font-weight: 350;
+  font-style: normal;
+}
+
 
 :root{
   --mainclr:#6c9894;
@@ -16,12 +23,13 @@
 
 body {
   background-color: #6c9894;
+
 }
 
 h1, h4, p, 
 a {
   color: black;
-font-size: x-large;
+font-size: large;
 }
 
 ul {

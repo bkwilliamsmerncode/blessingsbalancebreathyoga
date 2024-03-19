@@ -2,8 +2,14 @@ import React from 'react'
 import "./About.css"
 import Instructer from "../../images/Instructer.png"
 import New from "../../images/newexperience.png"
+import img1 from "../../images/img1.jpg"
+import img2 from "../../images/img2.jpg"
+import { useNavigate } from 'react-router-dom'
 
 const AboutContent = () => {
+
+const nav = useNavigate();
+
   return (
    <>
  <div class="our-instructor">
@@ -11,14 +17,15 @@ const AboutContent = () => {
     <div class="main-instructor">
         <div class="inner-instructor">
             <div class="inner-content-instructor">
-                <h2>best <br /> Instructor</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cum non! Eveniet qui doloribus rem ipsa, veritatis culpa </p>
-            <a href="#">Read more</a>
+                <p style={{fontSize: "xx-large"}}>Dr. Donna Jagielski</p>  <br /> <h2>Instructor</h2>
+            <p>Belief that you can be a devout Christian and a devout yoga practioner. There is the underlying belief of the goodness in all of us and to honor and respect all living things. </p>
+            <button onClick={() => nav("/")} className='regbtn'>Read More</button> 
             </div>
             
         </div>
 
         <div class="inner-instructor">
+            {/* <img src={img1} alt="" /> */}
             <img src={Instructer} alt="" />
         </div>
     </div>
@@ -28,16 +35,30 @@ const AboutContent = () => {
     <div class="main-instructor">
 
         <div class="inner-instructor">
+            {/* <img src={img2} alt="" /> */}
             <img src={New} alt="" />
         </div>
 
         <div class="inner-instructor">
             <div class="inner-content-instructor">
                 <h2>New <br /> Experience</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cum non! Eveniet qui doloribus rem ipsa, veritatis culpa </p>
-            <a href="#">Read more</a>
+            <p>My RCYT through YogaEd has been focused on trauma-informed/sensitive practice. Additionally, my 100-hour YTT (Yahweh Teacher Training) provided me with approaching yoga practice through a Christian faith-based lens. </p>
+            <button onClick={() => nav("/")} className='regbtn'>Read More</button> 
             </div>
             
+        </div>
+        <div class="inner-instructor">
+            <div class="inner-content-instructor">
+                <p style={{fontSize: "xx-large"}}>Dr. Donna Jagielski</p>  <br /> <h2>Instructor</h2>
+            <p>Belief that you can be a devout Christian and a devout yoga practioner. There is the underlying belief of the goodness in all of us and to honor and respect all living things. </p>
+            <button onClick={() => nav("/")} className='regbtn'>Read More</button> 
+            </div>
+            
+        </div>
+
+        <div class="inner-instructor">
+            {/* <img src={img1} alt="" /> */}
+            <img src={Instructer} alt="" />
         </div>
     </div>
 </div>
