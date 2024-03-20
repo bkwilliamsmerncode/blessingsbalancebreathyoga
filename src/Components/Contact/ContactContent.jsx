@@ -1,23 +1,45 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import "./Contact.css"
+import emailjs from '@emailjs/browser';
 import Instructer from "../../images/Instructer.png"
 import img1 from "../../images/img1.jpg"
 
 
 const ContactContent = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_9gk0on8', 'template_gx3imsd', form.current, {
+          publicKey: 'P2CVCJ58_ylJEjeFM',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+            form.current.reset()
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
+
   return (
   <>
   <div class="contact-us">
     <div class="main-contact">
         <div class="inner-contact">
             <h1>Contact us</h1>
-            <div class="inner-form-contact">
-            <input type="text" placeholder="Subject" />
-                <input type="text" placeholder="your name" />
-                <input type="email" placeholder="your email" />
-                <textarea name="" id="" cols="30" rows="10" placeholder='Message'></textarea>
-                <button className='subbtn'><p>Submit</p></button>
-            </div>
+            <form class="inner-form-contact" ref={form} onSubmit={sendEmail}>
+                <input type="text" placeholder="your name" name='name'/>
+                <input type="email" placeholder="your email" name='email'/>
+                <input type="text" placeholder="Subject" name='subject' />
+                <textarea name="message" id="" cols="30" rows="10" placeholder='Message' ></textarea>
+                <button type='submit' className='subbtn'><p>Submit</p></button>
+            </form>
         </div>
 
         <div class="inner-contact">
