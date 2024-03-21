@@ -15,10 +15,10 @@ const ClassesContent = () => {
 
         <div class="main-class">
           <div class="inner-class">
-            {/* <div className="forimg">
+            <div className="forimg">
               <div className="forimginner"></div>
-            </div> */}
-<img src={Class1} alt="" />
+            </div>
+{/* <img src={Class1} alt="" /> */}
             <div class="class-content">
               <h2>newbie class</h2>
               <p>
@@ -32,10 +32,10 @@ const ClassesContent = () => {
           </div>
 
           <div class="inner-class">
-            {/* <div className="forimg3">
+            <div className="forimg3">
               <div className="forimginner3"></div>
-            </div> */}
-            <img src={Class2} alt="" />
+            </div>
+            {/* <img src={Class2} alt="" /> */}
             <div class="class-content">
               <h2>newbie class</h2>
               <p>
@@ -49,10 +49,10 @@ const ClassesContent = () => {
           </div>
 
           <div class="inner-class">
-            {/* <div className="forimg4">
+            <div className="forimg4">
               <div className="forimginner4"></div>
-            </div> */}
-            <img src={Class3} alt="" />
+            </div>
+            {/* <img src={Class3} alt="" /> */}
             <div class="class-content">
               <h2>newbie class</h2>
               <p>

@@ -2,8 +2,10 @@ import React from 'react'
 import "./About.css"
 import Instructer from "../../images/Instructer.png"
 import New from "../../images/newexperience.png"
-import img1 from "../../images/img1.jpg"
-import img2 from "../../images/img2.jpg"
+import donna5 from "../../images/donna5.jpg"
+import donna13 from "../../images/donna13.jpg"
+import donna9 from "../../images/donna9.jpg"
+
 import { useNavigate } from 'react-router-dom'
 
 const AboutContent = () => {
@@ -25,8 +27,8 @@ const nav = useNavigate();
         </div>
 
         <div class="inner-instructor">
-            {/* <img src={img1} alt="" /> */}
-            <img src={Instructer} alt="" />
+            <img src={donna5} alt="" />
+            {/* <img src={Instructer} alt="" /> */}
         </div>
     </div>
 </div>
@@ -35,8 +37,8 @@ const nav = useNavigate();
     <div class="main-instructor">
 
         <div class="inner-instructor">
-            {/* <img src={img2} alt="" /> */}
-            <img src={New} alt="" />
+            <img src={donna13} alt="" />
+            {/* <img src={New} alt="" /> */}
         </div>
 
         <div class="inner-instructor">
@@ -57,8 +59,8 @@ const nav = useNavigate();
         </div>
 
         <div class="inner-instructor">
-            {/* <img src={img1} alt="" /> */}
-            <img src={Instructer} alt="" />
+            <img src={donna9} alt="" />
+            {/* <img src={Instructer} alt="" /> */}
         </div>
     </div>
 </div>

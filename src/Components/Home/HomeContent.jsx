@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import For from "../../images/forbg.png"
 import { useNavigate } from 'react-router-dom'
-import Donna from "../../images/donna.jpg"
+import Donna1 from "../../images/donna1.jpg"
 import Logos from "../../images/logos.png"
 
 const HomeContent = () => {
@@ -14,10 +14,10 @@ const HomeContent = () => {
     <div id="home" class="back">
     <div class="mian-home">
         <div class="inner-home">
-            {/* <div className='forimg1'>
+            <div className='forimg1'>
                 <div className='forimginner1'></div>
-            </div> */}
-            <img src={For} alt="pic" />
+            </div>
+            {/* <img src={For} alt="pic" /> */}
         </div>
 
         <div class="inner-home">

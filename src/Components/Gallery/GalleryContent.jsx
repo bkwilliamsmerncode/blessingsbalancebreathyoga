@@ -6,12 +6,36 @@ import Gallery3 from "../../images/gallery3.jpg"
 import Gallery4 from "../../images/gallery4.jpg"
 import Gallery5 from "../../images/gallery5.jpg"
 import Gallery6 from "../../images/gallery6.jpg"
-import img1 from "../../images/img1.jpg"
-import img2 from "../../images/img2.jpg"
-import img3 from "../../images/img3.jpg"
-import img4 from "../../images/img4.jpg"
-import img5 from "../../images/img5.jpg"
-import img6 from "../../images/img6.jpg"
+import Gallery7 from "../../images/gallery7.jpg"
+import Gallery8 from "../../images/gallery8.jpg"
+import Gallery9 from "../../images/gallery9.jpg"
+import Gallery10 from "../../images/gallery10.jpg"
+import Gallery11 from "../../images/gallery11.jpg"
+import Gallery12 from "../../images/gallery12.jpg"
+import Gallery13 from "../../images/gallery13.jpg"
+import Gallery14 from "../../images/gallery14.jpg"
+import Gallery15 from "../../images/gallery15.jpg"
+import Gallery16 from "../../images/gallery16.jpg"
+import Gallery17 from "../../images/gallery17.jpg"
+import Gallery18 from "../../images/gallery18.jpg"
+import Gallery19 from "../../images/gallery19.jpg"
+import Gallery20 from "../../images/gallery20.jpg"
+import Gallery21 from "../../images/gallery21.jpg"
+import Gallery22 from "../../images/gallery22.jpg"
+import Gallery23 from "../../images/gallery23.jpg"
+import Gallery24 from "../../images/gallery24.jpg"
+import Gallery25 from "../../images/gallery25.jpg"
+import Gallery26 from "../../images/gallery26.jpg"
+import Gallery27 from "../../images/gallery27.jpg"
+import Gallery28 from "../../images/gallery28.jpg"
+import Gallery29 from "../../images/gallery29.jpg"
+import Gallery30 from "../../images/gallery30.jpg"
+import Gallery31 from "../../images/gallery31.jpg"
+import Gallery32 from "../../images/gallery32.jpg"
+
+
+
+
 
 const GalleryContent = () => {
   return (
@@ -19,29 +43,6 @@ const GalleryContent = () => {
     <div class="our-gallery">
     <h1>gallery</h1>
     <div class="main-gallery">
-        {/* <div class="inner-gallery">
-            <img src={img1} alt="" />
-        </div>
-
-        <div class="inner-gallery">
-            <img src={img2} alt="" />
-        </div>
-
-        <div class="inner-gallery">
-            <img src={img3} alt="" />
-        </div>
-
-        <div class="inner-gallery">
-            <img src={img4} alt="" />
-        </div>
-
-        <div class="inner-gallery">
-            <img src={img5} alt="" />
-        </div>
-
-        <div class="inner-gallery">
-            <img src={img6} alt="" />
-        </div> */}
         <div class="inner-gallery">
             <img src={Gallery1} alt="" />
         </div>
@@ -64,6 +65,105 @@ const GalleryContent = () => {
 
         <div class="inner-gallery">
             <img src={Gallery6} alt="" />
+        </div>
+        <div class="inner-gallery">
+            <img src={Gallery7} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery8} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery9} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery10} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery11} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery12} alt="" />
+        </div>
+        <div class="inner-gallery">
+            <img src={Gallery13} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery14} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery15} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery16} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery17} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery18} alt="" />
+        </div>
+        <div class="inner-gallery">
+            <img src={Gallery19} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery20} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery21} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery22} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery23} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery24} alt="" />
+        </div>
+        <div class="inner-gallery">
+            <img src={Gallery25} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery26} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery27} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery28} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery29} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery30} alt="" />
+        </div>
+        <div class="inner-gallery">
+            <img src={Gallery31} alt="" />
+        </div>
+
+        <div class="inner-gallery">
+            <img src={Gallery32} alt="" />
         </div>
     </div>
 </div>
