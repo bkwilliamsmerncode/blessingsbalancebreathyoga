@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import {FaBars, FaTimes} from "react-icons/fa";
 import Logo from "../../images/Logo.png"
+import Pose from "../../images/Pose.png"
 
 
 
@@ -27,16 +28,22 @@ window.addEventListener("scroll", handleColor)
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-    <Link to="/">
-<img src={Logo} alt="logo" className='logodiv'/>
-    </Link>
-    {/* <div style={{display: "flex", alignItems: "center"}}><p style={{fontSize: "80px"}}>B</p>
-    <div style={{display: "flex",   flexDirection: "column"}}>
+
+    <div style={{display: "flex", alignItems: "center"}}><p style={{fontSize: "70px", fontWeight: "bold", color: "black"}}>B</p>
+    <div style={{display: "flex",   flexDirection: "column", marginBottom: "15px", fontSize: "20px", lineHeight: "17px"}}>
     <div>lessings</div>
     <div>alance</div> 
    <div>reath</div> 
+  
     </div>
-    </div> */}
+    <div style={{
+        display: "flex",
+       
+    }}>
+    <img src={Pose} alt="" style={{width: "60px"}}/>
+    <div style={{fontSize: "20px", marginTop: "40px"}}>Yoga</div>
+    </div>
+    </div>
     <ul className={modal ? "nav-menu active" : "nav-menu"}>
         <li>
             <Link to="/"><p>Home</p></Link>
