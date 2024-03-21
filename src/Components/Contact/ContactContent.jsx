@@ -2,7 +2,8 @@ import React, { useRef } from 'react'
 import "./Contact.css"
 import emailjs from '@emailjs/browser';
 import Instructer from "../../images/Instructer.png"
-import img1 from "../../images/img1.jpg"
+import donna5 from "../../images/donna5.jpg"
+
 
 
 const ContactContent = () => {
@@ -43,8 +44,8 @@ const ContactContent = () => {
         </div>
 
         <div class="inner-contact">
-            {/* <img src={img1} alt="" /> */}
-            <img src={Instructer} alt="" />
+            <img src={donna5} alt="" />
+            {/* <img src={Instructer} alt="" /> */}
         </div>
     </div>
 </div>
