@@ -9,9 +9,9 @@ const nav = useNavigate();
   return (
     <>
     <div className="eventsmain">
-      <div className="eventheader">Past Events</div>
+      <div className="eventheader" style={{fontFamily: 'Galada'}}>Past Events</div>
       <div className="eventbtndiv">
-        <button className='eventbtn' onClick={() => nav("/Events")}>Past Events</button>
+        <button className='eventbtn' onClick={() => nav("/Events")} style={{fontFamily: 'Galada'}}>Past Events</button>
         <button className='eventbtn' onClick={() => nav("/UpcomingEvents")}>Upcoming Events</button>
       </div>
       <div className="event1">YFEW Alicia event - March 2024</div>
