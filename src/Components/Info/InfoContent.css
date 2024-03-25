@@ -1,0 +1,26 @@
+.infomain {
+    width: 100%;
+    height: auto;
+}
+
+.infoheader {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.pdfdiv {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pdfcontainer {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}

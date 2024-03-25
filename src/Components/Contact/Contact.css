@@ -55,4 +55,25 @@
 background-color: white;
 
   }
+
+  .labels {
+    display: flex;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+
+  .special {
+    color: rgb(171, 0, 0);
+    margin-left: 1px;
+    /* font-size: 20px; */
+  }
+
+  .validInput {
+    border: 1px solid #ffffff; /* white border */
+  }
+  
+  .invalidInput {
+    border: 1px solid #ff0000; /* red border */
+  }
   
