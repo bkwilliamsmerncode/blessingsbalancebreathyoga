@@ -24,7 +24,7 @@
     object-fit: cover;
    transition: 1s;
   }
-  .inner-gallery img:hover{
+  /* .inner-gallery img:hover{
     transform: scale(1.1) rotate(20deg);
     border-radius: 15px;
-  }
+  } */

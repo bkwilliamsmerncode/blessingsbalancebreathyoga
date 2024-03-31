@@ -41,7 +41,7 @@ const GalleryContent = () => {
   return (
     <>
     <div class="our-gallery">
-    <h1 style={{marginTop: "60px", fontSize: "60px", color: "black", fontFamily: 'Galada'}}>Gallery</h1>
+    <h1 style={{marginTop: "60px", fontSize: "60px", color: "black"}}>Gallery</h1>
     <div class="main-gallery">
         <div class="inner-gallery">
             <img src={Gallery1} alt="" />

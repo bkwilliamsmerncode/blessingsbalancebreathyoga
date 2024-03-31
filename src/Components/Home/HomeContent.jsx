@@ -21,10 +21,10 @@ const HomeContent = () => {
 
           <div class="inner-home">
             <div class="inner-content">
-              <h1 style={{ color: "black", fontFamily: 'Galada' }}>Blessings Balance Breath Yoga</h1>
+              <h1 style={{ color: "black" }}>Blessings Balance Breath Yoga</h1>
               {/* <div className='logosdiv'><img src={Logos} alt="logos"  className="logosimg1"/></div> */}
 
-              <p>
+              <p style={{ fontSize: "20px"}}>
                 Dedicated to bringing yoga to underserved, underrepresented,
                 marginalized, and system/justice-impacted populations Providing
                 the healing practice of yoga to reclaim empowerment and harmony

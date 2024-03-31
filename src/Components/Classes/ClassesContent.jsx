@@ -11,7 +11,7 @@ const ClassesContent = () => {
   return (
     <>
       <div class="our-classes">
-        <h1 style={{marginTop: "40px", color: "black", fontSize: "60px", fontFamily: 'Galada'}}>Services</h1>
+        <h1 style={{marginTop: "40px", color: "black", fontSize: "60px"}}>Services</h1>
 
         <div class="main-class">
           <div class="inner-class">
@@ -20,10 +20,14 @@ const ClassesContent = () => {
             </div>
 {/* <img src={Class1} alt="" /> */}
             <div class="class-content">
-              <h2>newbie class</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus corrupti facilis velit harum impedit recusandae consequatur quasi nesciunt accusamus voluptates illum, hic, vel veritatis eius adipisci mollitia numquam similique ea!
-              </p>
+              <h2>Education & Youth Organization Programs</h2>
+              <p>Introduction to Yoga </p>
+              <p>Family Yoga</p>
+              <p>Yoga & Creative Journaling</p>
+
+
+
+             
               <button onClick={() => nav("/Contact")} className="regbtn2">
                 Register now
               </button>
@@ -36,11 +40,10 @@ const ClassesContent = () => {
             </div>
             {/* <img src={Class2} alt="" /> */}
             <div class="class-content">
-              <h2>newbie class</h2>
-              <p>
-                Lt. At, illum veniam. Earum debitis asperiores voluptatem ut
-                nemo harum voluptatibus
-              </p>
+              <h2>Social Services & Faith-Based Organizations</h2>
+              <p>Faith-based classes and workshops</p>
+              <p>Yoga for Healing </p>
+              <p>Womens groups</p>
               <button onClick={() => nav("/Contact")} className="regbtn2">
                 Register now
               </button>
@@ -53,11 +56,10 @@ const ClassesContent = () => {
             </div>
             {/* <img src={Class3} alt="" /> */}
             <div class="class-content">
-              <h2>newbie class</h2>
-              <p>
-                Lt. At, illum veniam. Earum debitis asperiores voluptatem ut
-                nemo harum voluptatibus
-              </p>
+              <h2>Specialized & Customized Programs</h2>
+              <p>Yoga for Empowered Women (a signature program of Blessings Balance Breath Yoga)</p>
+              <p>Professional Development & Staff Training </p>
+              <p>Custom designed for organization</p>
               <button onClick={() => nav("/Contact")} className="regbtn2">
                 Register now
               </button>
@@ -66,10 +68,16 @@ const ClassesContent = () => {
         </div>
       </div>
       <div class="our-prices">
-    <h1 style={{fontFamily: "Galada", fontSize: "50px"}}>prices</h1>
+    <h1 style={{ fontSize: "50px"}}>Prices</h1>
+    <div style={{width: "100%", justifyContent: "center", alignItems: "center", display: "flex", }}>
+    <p style={{color: "white", marginBottom: "20px", textAlign: "center"}}>Available to travel state-wide 
+Limited online workshops are available
+Payment accepted: Venmo, Zelle, and business/school/organizational checks
+</p>
+</div>
     <div class="main-prices">
         <div class="inner-prices">
-            <h2>Newbie classes</h2>
+            <h2>Education & Youth Organization Programs</h2>
             <h3>prices : $00.00/</h3>
             <div class="price-icon">
                 <i class="fas fa-award"></i>
@@ -78,7 +86,7 @@ const ClassesContent = () => {
         </div>
 
         <div class="inner-prices">
-            <h2>Newbie classes</h2>
+            <h2>Social Services & Faith-Based Organizations</h2>
             <h3>prices : $00.00/</h3>
             <div class="price-icon">
                 <i class="fas fa-award"></i>
@@ -87,7 +95,7 @@ const ClassesContent = () => {
         </div>
 
         <div class="inner-prices">
-            <h2>Newbie classes</h2>
+            <h2>Specialized & Customized Programs</h2>
             <h3>prices : $00.00/</h3>
             <div class="price-icon">
                 <i class="fas fa-award"></i>

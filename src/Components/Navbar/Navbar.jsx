@@ -28,7 +28,10 @@ window.addEventListener("scroll", handleColor)
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-        <img src={bbbylogo2} alt="" className='logodiv'/>
+          <li>
+            <Link to="/"><img src={bbbylogo2} alt="" className='logodiv'/></Link>
+        </li>
+        {/* <img src={bbbylogo2} alt="" className='logodiv'/> */}
 
     {/* <div style={{display: "flex", alignItems: "center"}}><p style={{fontSize: "70px", fontWeight: "bold", color: "black"}}>B</p>
     <div style={{display: "flex",   flexDirection: "column", marginBottom: "15px", fontSize: "20px", lineHeight: "17px"}}>
@@ -58,15 +61,16 @@ window.addEventListener("scroll", handleColor)
         <li>
             <Link to="/Classes"><p>Services</p></Link>
         </li>
-        <li>
+        {/* <li>
             <Link to="/Events"><p>Events</p></Link>
+        </li> */}
+        <li>
+            <Link to="/Info"><p>Resources</p></Link>
         </li>
         <li>
             <Link to="/Contact"><p>Contact</p></Link>
         </li>
-        <li>
-            <Link to="/Info"><p>Info</p></Link>
-        </li>
+       
       
     </ul>
     <div className='hamburger' onClick={() => handleModal()}>

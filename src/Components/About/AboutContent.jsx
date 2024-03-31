@@ -14,31 +14,39 @@ const AboutContent = () => {
   return (
     <>
       <div class="our-instructor">
-        <h1
-          style={{ fontFamily: "Galada", marginTop: "60px", fontSize: "50px" }}
-        >
-          Our instructor
-        </h1>
+        <h1 style={{ marginTop: "60px", fontSize: "50px" }}>Our instructor</h1>
         <div class="main-instructor">
           <div class="inner-instructor">
             <div class="inner-content-instructor">
               <p style={{ fontSize: "xx-large" }}>Dr. Donna Jagielski</p> <br />{" "}
-              <h2>Instructor</h2>
-              <p>
-                Both my 200 and 300-hour RYT training has been exclusively with
-                Yoga Farm Ithaca. Trained in Vinyasa flow and Hatha that has
-                influences of Chi Gong from training at Yoga Farm Ithaca. The
-                Radiant and Luminous Warrior approach is about recognizing your
-                Light of Being - embodied essence and expression of luminosity
-                and radiance - focused on keys within us that I believe foster a
-                reunion and reclaiming of empowerment. My RCYT through YogaEd
-                has been focused on trauma-informed/sensitive practice.
-                Additionally, my 100-hour YTT (Yahweh Teacher Training) provided
-                me with approaching yoga practice through a Christian
-                faith-based lens. I hold additional CEUs in Accessible Yoga,
-                Chair, Yin, and Restorative.
+              <h2>Yoga Training & Education </h2>
+              <p style={{ textAlign: "center", fontSize: "20px" }}>
+                "Lokah Samastah Sukhino Bhavantu"
               </p>
-              <button onClick={() => nav("/")} className="regbtn">
+              <p style={{ textAlign: "center", fontSize: "20px" }}>
+                "May all beings everywhere be happy and free And may the
+                thoughts, words, and actions of my own life contribute in some
+                way to that happiness and to that freedom for all."
+              </p>
+              <ul
+                style={{
+                  fontSize: "20px",
+                  marginTop: "10px",
+                  marginBottom: "10px",
+                  listStyleType: "disc",
+                }}
+              >
+                <li>
+                  Training through Yoga Farm Ithaca, YogaEd, and Yahweh Yoga
+                </li>
+                <li>Emphasis on Vinyasa and Hatha </li>
+                <li>Facilitator for Prison Yoga Project</li>
+                <li>
+                  Additional training: Trauma Informed/Sensitive Practices,
+                  Accessible Yoga, Chair, Yin, and Restorative
+                </li>
+              </ul>
+              <button onClick={() => nav("/Info")} className="regbtn">
                 Read More
               </button>
             </div>
@@ -61,29 +69,71 @@ const AboutContent = () => {
           <div class="inner-instructor">
             <div class="inner-content-instructor">
               <h2>
-                New <br /> Experience
+                Education & <br /> Professional Background
               </h2>
-              <p>
-                My RCYT through YogaEd has been focused on
-                trauma-informed/sensitive practice. Additionally, my 100-hour
-                YTT (Yahweh Teacher Training) provided me with approaching yoga
-                practice through a Christian faith-based lens.{" "}
+              <p style={{ textAlign: "center", fontSize: "20px" }}>
+                {" "}
+                "To the world, you might be just one person, but to one person
+                you might be the world." Unknown.
               </p>
-              <button onClick={() => nav("/")} className="regbtn">
+              <ul
+                style={{
+                  fontSize: "20px",
+                  marginTop: "10px",
+                  marginBottom: "10px",
+                  listStyleType: "disc",
+                }}
+              >
+                <li>
+                  Doctorate in Education M.A. in Education/Teaching & an M.A. in
+                  Educational Leadership
+                </li>
+                <li>
+                  {" "}
+                  20 years in education serving underrepresented underserved
+                  marginalized youth and adult learners{" "}
+                </li>
+              </ul>
+              <button onClick={() => nav("/Info")} className="regbtn">
                 Read More
               </button>
             </div>
           </div>
           <div class="inner-instructor">
             <div class="inner-content-instructor">
-              <p style={{ fontSize: "xx-large" }}>Dr. Donna Jagielski</p> <br />{" "}
-              <h2>Instructor</h2>
-              <p>
-                Belief that you can be a devout Christian and a devout yoga
-                practioner. There is the underlying belief of the goodness in
-                all of us and to honor and respect all living things.{" "}
+              <p style={{ fontSize: "xx-large" }}></p> <br />{" "}
+              <h2>Yoga Philosophy</h2>
+              <p style={{ textAlign: "center", fontSize: "20px" }}>
+                "Be kind, for everyone you meet is fighting a battle you know
+                nothing about." Unknown.
               </p>
-              <button onClick={() => nav("/")} className="regbtn">
+              <ul   style={{
+                  fontSize: "20px",
+                  marginTop: "10px",
+                  marginBottom: "10px",
+                  listStyleType: "disc",
+                }}>
+                <li>
+                  Align the breath, body, and mind along with words, actions,
+                  and intentions.
+                </li>
+                <li>
+                  {" "}
+                  Our lives are filled with peaks and valleys. Forgive, learn,
+                  and refrain from judgment.
+                </li>
+                <li> Dismiss preconceived notions.</li>
+                <li> Let go of ego - be humble</li>
+                <li>Put others' needs before yourself.</li>
+                <li>
+                  {" "}
+                  Live in a childlike spirit -hug stuffed animals - stare up at
+                  the moon and stars - catch snowflakes on your tongue - stop
+                  and smell the flowers - believe in fairytales - dance in the
+                  enchanted forest
+                </li>
+              </ul>
+              <button onClick={() => nav("/Info")} className="regbtn">
                 Read More
               </button>
             </div>
