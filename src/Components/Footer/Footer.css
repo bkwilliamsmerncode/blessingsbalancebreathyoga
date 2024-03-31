@@ -40,6 +40,9 @@
 
 .social {
     margin-top: 1rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 h4 {
@@ -49,6 +52,7 @@ h4 {
 
 .logosimg {
     width: 100px;
+    margin-right: 20px;
 }
 
 

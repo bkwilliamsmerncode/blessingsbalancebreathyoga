@@ -60,6 +60,9 @@ const Footer = () => {
               size={30}
               style={{ color: "#fff", marginRight: "2rem" }}
             /> */}
+                 <a href=" https://www.yogaalliance.org/ " target="_blank">
+                <img src={Logos} alt="logos" className="logosimg" />
+              </a>
               <a
                 href="https://www.facebook.com/profile.php?id=100095239536075"
                 target="_blank"
@@ -87,9 +90,7 @@ const Footer = () => {
                   style={{ color: "black", marginRight: "2rem" }}
                 />
               </a>
-              <a href=" https://www.yogaalliance.org/ " target="_blank">
-                <img src={Logos} alt="logos" className="logosimg" />
-              </a>
+         
             </div>
           </div>
         </div>

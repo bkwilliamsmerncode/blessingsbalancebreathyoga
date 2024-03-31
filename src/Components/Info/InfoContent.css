@@ -24,3 +24,70 @@
     border-radius: 10px;
     margin: 10px;
 }
+
+.maininfo {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+width: 50%;
+height: auto;
+/* border: solid black 1px; */
+}
+.leftinner {
+    text-align: center;
+    width: 80%;
+    height: auto;
+}
+
+.rightinfo {
+width: 50%;
+height: auto;
+/* border: solid black 1px; */
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.pdfcontain {
+    border: solid 1px black;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.linkdiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.falinks {
+    margin: 10px;
+    font-size: xx-large;
+}
+
+.cym {
+    width: 250px;
+    margin: 20px;
+}
+
+.eventimg {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px){
+    .maininfo {
+        flex-direction: column;
+    }
+}
