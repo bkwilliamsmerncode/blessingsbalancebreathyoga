@@ -49,7 +49,21 @@ const InfoContent = () => {
         </div>
         <div className="maininfo" style={{flexDirection: "column"}}>
           <div className="leftinfo">
-            <div className="leftinner">
+       
+          </div>
+          <div className="rightinfo">
+            <div className="pdfcontain"><img className="eventimg" src={event1} alt="" /></div>
+            <div className="pdfcontain"><img className="eventimg" src={event2} alt="" /></div>
+            <div className="pdfcontain"><img className="eventimg" src={event3} alt="" /></div>
+            <div className="pdfcontain"><img className="eventimg" src={event4} alt="" /></div>
+          </div>
+          <div className="rightinfo">
+            <div className="pdfcontain"><img className="eventimg" src={event1} alt="" /></div>
+            <div className="pdfcontain"><img className="eventimg" src={event2} alt="" /></div>
+            <div className="pdfcontain"><img className="eventimg" src={event3} alt="" /></div>
+            <div className="pdfcontain"><img className="eventimg" src={event4} alt="" /></div>
+          </div>
+          <div className="leftinner">
               <div>
                 <h1 style={{ fontSize: "40px" }}>Past events</h1>
               </div>
@@ -85,15 +99,14 @@ const InfoContent = () => {
                </div>
               </div>
             </div>
-          </div>
-          <div className="rightinfo">
-            <div className="pdfcontain"><img className="eventimg" src={event1} alt="" /></div>
-            <div className="pdfcontain"><img className="eventimg" src={event2} alt="" /></div>
-            <div className="pdfcontain"><img className="eventimg" src={event3} alt="" /></div>
-            <div className="pdfcontain"><img className="eventimg" src={event4} alt="" /></div>
-          </div>
         </div>
-        <div className="maininfo">
+        <div className="maininfo" style={{flexDirection: "column"}}>
+          <div className="rightinfo">
+            <div className="pdfcontain" onClick={handleClick1}><img className="eventimg" src={art1} alt="" /></div>
+            <div className="pdfcontain" onClick={handleClick2}><img className="eventimg" src={art2} alt="" /></div>
+            <div className="pdfcontain" onClick={handleClick3}><img className="eventimg" src={art3} alt="" /></div>
+            <div className="pdfcontain" onClick={handleClick4}><img className="eventimg" src={art4} alt="" /></div>
+          </div>
           <div className="rightinfo">
             <div className="pdfcontain" onClick={handleClick1}><img className="eventimg" src={art1} alt="" /></div>
             <div className="pdfcontain" onClick={handleClick2}><img className="eventimg" src={art2} alt="" /></div>
