@@ -27,15 +27,7 @@ const Footer = () => {
                 <p>Phoenix, Arizona</p>
               </div>
             </div>
-            {/* <div className="phone">
-              <p>
-                <FaPhone
-                  size={20}
-                  style={{ color: "black", marginRight: "2rem" }}
-                />
-                847-204-8079
-              </p>
-            </div> */}
+
             <div className="email">
               <p>
                 {" "}
@@ -50,17 +42,10 @@ const Footer = () => {
           <div className="right">
             <p>Site by Brian K. Williams Full-Stack Web Developer</p>
             <p>
-              {/* <FaCopyright         size={30}
-                  style={{ color: "black", marginRight: "2rem" }}/>
-                  Blessings, Balance, Breath, Yoga 2024 */}
               <FaRegCopyright /> Blessings, Balance, Breath, Yoga 2024
             </p>
             <div className="social">
-              {/* <FaFacebook
-              size={30}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            /> */}
-                 <a href=" https://www.yogaalliance.org/ " target="_blank">
+              <a href=" https://www.yogaalliance.org/ " target="_blank">
                 <img src={Logos} alt="logos" className="logosimg" />
               </a>
               <a
@@ -90,7 +75,6 @@ const Footer = () => {
                   style={{ color: "black", marginRight: "2rem" }}
                 />
               </a>
-         
             </div>
           </div>
         </div>
