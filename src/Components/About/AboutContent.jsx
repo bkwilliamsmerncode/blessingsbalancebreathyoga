@@ -1,7 +1,5 @@
 import React from "react";
 import "./About.css";
-import Instructer from "../../images/Instructer.png";
-import New from "../../images/newexperience.png";
 import donna5 from "../../images/donna5.jpg";
 import donna13 from "../../images/donna13.jpg";
 import donna9 from "../../images/donna9.jpg";
@@ -54,7 +52,6 @@ const AboutContent = () => {
 
           <div class="inner-instructor">
             <img src={donna5} alt="" />
-            {/* <img src={Instructer} alt="" /> */}
           </div>
         </div>
       </div>
@@ -63,7 +60,6 @@ const AboutContent = () => {
         <div class="main-instructor">
           <div class="inner-instructor">
             <img src={donna13} alt="" />
-            {/* <img src={New} alt="" /> */}
           </div>
 
           <div class="inner-instructor">
@@ -107,12 +103,14 @@ const AboutContent = () => {
                 "Be kind, for everyone you meet is fighting a battle you know
                 nothing about." Unknown.
               </p>
-              <ul   style={{
+              <ul
+                style={{
                   fontSize: "20px",
                   marginTop: "10px",
                   marginBottom: "10px",
                   listStyleType: "disc",
-                }}>
+                }}
+              >
                 <li>
                   Align the breath, body, and mind along with words, actions,
                   and intentions.
@@ -141,7 +139,6 @@ const AboutContent = () => {
 
           <div class="inner-instructor">
             <img src={donna9} alt="" />
-            {/* <img src={Instructer} alt="" /> */}
           </div>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
-import Instructer from "../../images/Instructer.png";
 import donna5 from "../../images/donna5.jpg";
 
 const ContactContent = () => {
@@ -26,8 +25,6 @@ const ContactContent = () => {
     setEmail(value);
     setIsValid(emailRegex.test(value));
   };
-
-
 
   const form = useRef();
 
@@ -87,12 +84,18 @@ const ContactContent = () => {
                 value={email}
                 onChange={(e) => handleChange(e)}
               />
-       {!isValid && email !== '' && (
-        <span style={{   color: "rgb(171, 0, 0)",
-        fontSize: "12px",
-        marginLeft: "10px",
-        marginBottom: "5px", }}>Please enter a valid email</span>
-      )}
+              {!isValid && email !== "" && (
+                <span
+                  style={{
+                    color: "rgb(171, 0, 0)",
+                    fontSize: "12px",
+                    marginLeft: "10px",
+                    marginBottom: "5px",
+                  }}
+                >
+                  Please enter a valid email
+                </span>
+              )}
 
               <label htmlFor="subject" className="labels">
                 Subject <p className="special">*</p>
@@ -102,7 +105,7 @@ const ContactContent = () => {
                 name="subject"
                 onChange={(e) => handleInput(e)}
               />
-               {(input?.subject !== "" && input?.subject.length < 3) ||
+              {(input?.subject !== "" && input?.subject.length < 3) ||
               input?.subject.length > 80 ? (
                 <span
                   style={{
@@ -128,7 +131,7 @@ const ContactContent = () => {
                 rows="10"
                 onChange={(e) => handleInput(e)}
               ></textarea>
-               {(input?.message !== "" && input?.message.length < 3) ||
+              {(input?.message !== "" && input?.message.length < 3) ||
               input?.message.length > 400 ? (
                 <span
                   style={{
@@ -160,7 +163,6 @@ const ContactContent = () => {
 
           <div class="inner-contact">
             <img src={donna5} alt="" />
-            {/* <img src={Instructer} alt="" /> */}
           </div>
         </div>
       </div>
