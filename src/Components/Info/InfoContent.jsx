@@ -8,7 +8,6 @@ import pdf4 from "../../assets/artical1.pdf";
 import pdf5 from "../../assets/artical1.pdf";
 import pdf6 from "../../assets/artical1.pdf";
 
-
 import CYM1 from "../../images/CYM1.png";
 import event1 from "../../images/event1.jpg";
 import event2 from "../../images/event2.jpg";
@@ -52,132 +51,128 @@ const InfoContent = () => {
         <div className="infoheader">Resources</div>
         <div className="maininfo">
           <div className="leftinfo">
-      
-   
-          <div className="leftinner">
-            <div>
-              <h1 style={{ fontSize: "50px" }}>Past events</h1>
-            </div>
-            <div>
-              {" "}
-              <p>
-                These are some of my past events. To learn more about some of my
-                past events or if you are interested in learning more about
-                upcoming events please visit the links below.
-              </p>{" "}
-            </div>
-            <div>
-              {" "}
-              <div className="linkdiv">
-                <a
-                  href="https://www.facebook.com/profile.php?id=100095239536075"
-                  target="_blank"
-                >
-                  <div className="falinks">
-                    <FaFacebook />
-                  </div>
-                </a>
-                <a
-                  href="https://www.instagram.com/blessingsbalancebreathyoga/"
-                  target="_blank"
-                >
-                  <div className="falinks">
-                    <FaInstagram />
-                  </div>
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/blessings-balance-and-breath-yoga"
-                  target="_blank"
-                >
-                  <div className="falinks">
-                    <FaLinkedin />
-                  </div>
-                </a>
+            <div className="leftinner">
+              <div>
+                <h1 style={{ fontSize: "50px" }}>Past events</h1>
+              </div>
+              <div>
+                {" "}
+                <p>
+                  These are some of my past events. To learn more about some of
+                  my past events or if you are interested in learning more about
+                  upcoming events please visit the links below.
+                </p>{" "}
+              </div>
+              <div>
+                {" "}
+                <div className="linkdiv">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100095239536075"
+                    target="_blank"
+                  >
+                    <div className="falinks">
+                      <FaFacebook />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/blessingsbalancebreathyoga/"
+                    target="_blank"
+                  >
+                    <div className="falinks">
+                      <FaInstagram />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/blessings-balance-and-breath-yoga"
+                    target="_blank"
+                  >
+                    <div className="falinks">
+                      <FaLinkedin />
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
           </div>
           <div className="rightinfo">
             <div className="pdfcontain">
-              <img className="eventimg" src={event1} alt="" />
+              <div className="img1"></div>
             </div>
             <div className="pdfcontain">
-              <img className="eventimg" src={event2} alt="" />
+              <div className="img2"></div>
             </div>
             <div className="pdfcontain">
-              <img className="eventimg" src={event3} alt="" />
+              <div className="img3"></div>
             </div>
             <div className="pdfcontain">
-              <img className="eventimg" src={event4} alt="" />
+              <div className="img4"></div>
             </div>
           </div>
         </div>
-        <div className="maininfo" >
-        <div className="rightinfo">
+        <div className="maininfo">
+          <div className="rightinfo">
             <div className="pdfcontain">
-              <img className="eventimg" src={event5} alt="" />
+              <div className="img5"></div>
             </div>
             <div className="pdfcontain">
-              <img className="eventimg" src={event6} alt="" />
+              <div className="img6"></div>
             </div>
             <div className="pdfcontain">
-              <img className="eventimg" src={event7} alt="" />
+              <div className="img7"></div>
             </div>
             <div className="pdfcontain">
-              <img className="eventimg" src={event8} alt="" />
+              <div className="img8"></div>
             </div>
           </div>
-      
+
           <div className="leftinfo">
-          <div className="leftinner">
-            <div>
-              <h1 style={{ fontSize: "50px" }}>More events</h1>
-            </div>
-            <div>
-              {" "}
-              <p>
-                These are some more of my past events. To learn more about some of my
-                past events or if you are interested in learning more about
-                upcoming events please visit the links below.
-              </p>{" "}
-            </div>
-            <div>
-              {" "}
-              <div className="linkdiv">
-                <a
-                  href="https://www.facebook.com/profile.php?id=100095239536075"
-                  target="_blank"
-                >
-                  <div className="falinks">
-                    <FaFacebook />
-                  </div>
-                </a>
-                <a
-                  href="https://www.instagram.com/blessingsbalancebreathyoga/"
-                  target="_blank"
-                >
-                  <div className="falinks">
-                    <FaInstagram />
-                  </div>
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/blessings-balance-and-breath-yoga"
-                  target="_blank"
-                >
-                  <div className="falinks">
-                    <FaLinkedin />
-                  </div>
-                </a>
+            <div className="leftinner">
+              <div>
+                <h1 style={{ fontSize: "50px" }}>More events</h1>
+              </div>
+              <div>
+                {" "}
+                <p>
+                  These are some more of my past events. To learn more about
+                  some of my past events or if you are interested in learning
+                  more about upcoming events please visit the links below.
+                </p>{" "}
+              </div>
+              <div>
+                {" "}
+                <div className="linkdiv">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100095239536075"
+                    target="_blank"
+                  >
+                    <div className="falinks">
+                      <FaFacebook />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/blessingsbalancebreathyoga/"
+                    target="_blank"
+                  >
+                    <div className="falinks">
+                      <FaInstagram />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/blessings-balance-and-breath-yoga"
+                    target="_blank"
+                  >
+                    <div className="falinks">
+                      <FaLinkedin />
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
         <div className="maininfo">
           <div className="leftinfo">
-      
-   
-          <div className="leftinner">
+            <div className="leftinner">
               <div>
                 <h1 style={{ fontSize: "50px" }}>Articles</h1>
               </div>
@@ -190,7 +185,7 @@ const InfoContent = () => {
                   magazine click the link below.
                 </p>{" "}
               </div>
-              <div>
+              <div className="CYM">
                 {" "}
                 <a href="https://christianyogamagazine.net/" target="_blank">
                   <img className="cym" src={CYM1} alt="" />
@@ -213,16 +208,16 @@ const InfoContent = () => {
             </div>
           </div>
         </div>
-        <div className="maininfo" >
+        <div className="maininfo">
           <div className="rightinfo">
-            <div className="pdfcontain" onClick={handleClick5}>
+            <div className="pdfcontain1" onClick={handleClick5}>
               <img className="eventimg" src={art5} alt="" />
             </div>
-            <div className="pdfcontain" onClick={handleClick6}>
+            <div className="pdfcontain2" onClick={handleClick6}>
               <img className="eventimg" src={art6} alt="" />
             </div>
           </div>
-      
+
           <div className="leftinfo">
             <div className="leftinner">
               <div>
@@ -237,13 +232,32 @@ const InfoContent = () => {
                   magazine click the link below.
                 </p>{" "}
               </div>
-              <div>
+              <div className="CYM">
                 {" "}
                 <a href="https://christianyogamagazine.net/" target="_blank">
                   <img className="cym" src={CYM1} alt="" />
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="videoheader">Videos</div>
+        <div className="videodiv">
+          <div className="videoleft">
+            <a
+              href="https://youtu.be/LE5qrYvdR1g?si=afUI84WFmndj38XK"
+              target="_blank"
+            >
+              <div className="yoga1"></div>
+            </a>
+          </div>
+          <div className="videoright">
+            <a
+              href="https://www.facebook.com/reel/2461781727363720?fs=e&s=TIeQ9V&mibextid=xCPwDs"
+              target="_blank"
+            >
+              <div className="yoga2"></div>
+            </a>
           </div>
         </div>
       </div>
