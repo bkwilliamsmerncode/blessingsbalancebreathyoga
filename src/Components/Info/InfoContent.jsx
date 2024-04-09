@@ -2,11 +2,11 @@ import React from "react";
 import "./InfoContent.css";
 
 import pdf1 from "../../assets/artical1.pdf";
-import pdf2 from "../../assets/artical1.pdf";
-import pdf3 from "../../assets/artical1.pdf";
-import pdf4 from "../../assets/artical1.pdf";
-import pdf5 from "../../assets/artical1.pdf";
-import pdf6 from "../../assets/artical1.pdf";
+import pdf2 from "../../assets/artical2.pdf";
+import pdf3 from "../../assets/artical3.pdf";
+import pdf4 from "../../assets/artical4.pdf";
+import pdf5 from "../../assets/artical5.pdf";
+import pdf6 from "../../assets/artical6.pdf";
 
 import CYM1 from "../../images/CYM1.png";
 import event1 from "../../images/event1.jpg";
@@ -194,11 +194,11 @@ const InfoContent = () => {
             </div>
           </div>
           <div className="rightinfo">
-            <div className="pdfcontain" onClick={handleClick1}>
-              <img className="eventimg" src={art1} alt="" />
+            <div className="pdfcontain" onClick={handleClick5}>
+              <img className="eventimg" src={art5} alt="" />
             </div>
-            <div className="pdfcontain" onClick={handleClick2}>
-              <img className="eventimg" src={art2} alt="" />
+            <div className="pdfcontain" onClick={handleClick6}>
+              <img className="eventimg" src={art6} alt="" />
             </div>
             <div className="pdfcontain" onClick={handleClick3}>
               <img className="eventimg" src={art3} alt="" />
@@ -210,11 +210,11 @@ const InfoContent = () => {
         </div>
         <div className="maininfo">
           <div className="rightinfo">
-            <div className="pdfcontain1" onClick={handleClick5}>
-              <img className="eventimg" src={art5} alt="" />
+            <div className="pdfcontain1" onClick={handleClick1}>
+              <img className="eventimg" src={art1} alt="" />
             </div>
-            <div className="pdfcontain2" onClick={handleClick6}>
-              <img className="eventimg" src={art6} alt="" />
+            <div className="pdfcontain2" onClick={handleClick2}>
+              <img className="eventimg" src={art2} alt="" />
             </div>
           </div>
 
