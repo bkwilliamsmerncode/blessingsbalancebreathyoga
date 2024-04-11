@@ -174,15 +174,14 @@ const InfoContent = () => {
           <div className="leftinfo">
             <div className="leftinner">
               <div>
-                <h1 style={{ fontSize: "50px" }}>Articles</h1>
+                <h1 style={{ fontSize: "50px" }}>Published Articles </h1>
               </div>
               <div>
                 {" "}
                 <p>
-                  These are some of my latest articles featured in Christian
-                  Yoga Magizine. Click on the picture to read the article or if
-                  you are interested in learning more about Christian Yoga
-                  magazine click the link below.
+                  I am blessed to serve as a staff writer for Christian Yoga
+                  Magazine. I invite you to enjoy several articles I have
+                  written about Christian yoga.
                 </p>{" "}
               </div>
               <div className="CYM">
@@ -196,15 +195,31 @@ const InfoContent = () => {
           <div className="rightinfo">
             <div className="pdfcontain" onClick={handleClick5}>
               <img className="eventimg" src={art5} alt="" />
+              <div className="articaltext">
+              {/* <p>Summer 2023 issue</p> */}
+                <p style={{fontSize: "11px"}}>Christ-centered Yoga Journaling for Tweens and Teen Girls</p>
+                </div>
             </div>
             <div className="pdfcontain" onClick={handleClick6}>
               <img className="eventimg" src={art6} alt="" />
+              <div className="articaltext">
+              {/* <p>Summer 2023 issue</p> */}
+                <p style={{fontSize: "11px"}}>Yoga for All: My Journey Teaching Yoga in the Juvenile Detention System</p>
+                </div>
             </div>
             <div className="pdfcontain" onClick={handleClick3}>
               <img className="eventimg" src={art3} alt="" />
+              <div className="articaltext">
+              {/* <p>Summer 2023 issue</p> */}
+                <p style={{fontSize: "11px"}}>An Interview with the Retreat Ladies</p>
+                </div>
             </div>
             <div className="pdfcontain" onClick={handleClick4}>
               <img className="eventimg" src={art4} alt="" />
+              <div className="articaltext">
+              {/* <p>Summer 2023 issue</p> */}
+                <p style={{fontSize: "11px"}}>Reconnecting with Christ through Yoga and the Five Vital Organs</p>
+                </div>
             </div>
           </div>
         </div>
@@ -212,32 +227,43 @@ const InfoContent = () => {
           <div className="rightinfo">
             <div className="pdfcontain1" onClick={handleClick1}>
               <img className="eventimg" src={art1} alt="" />
+              <div className="articaltext">
+              {/* <p>Summer 2023 issue</p> */}
+                <p style={{fontSize: "11px"}}>Christ-centered Trauma-Informed Practices on the Mat</p>
+                </div>
             </div>
             <div className="pdfcontain2" onClick={handleClick2}>
               <img className="eventimg" src={art2} alt="" />
+              <div className="articaltext">
+              {/* <p>Summer 2023 issue</p> */}
+                <p style={{fontSize: "11px"}}>Surrender to God: Ten Yoga Props Used in Restorative and Yin Yoga Practices</p>
+                </div>
             </div>
           </div>
 
           <div className="leftinfo">
             <div className="leftinner">
               <div>
-                <h1 style={{ fontSize: "50px" }}> More Articles</h1>
+                <h1 style={{ fontSize: "50px" }}>Additional Articles</h1>
               </div>
               <div>
                 {" "}
                 <p>
-                  These are some of my latest articles featured in Christian
-                  Yoga Magizine. Click on the picture to read the article or if
-                  you are interested in learning more about Christian Yoga
-                  magazine click the link below.
+                  As a staff writer for Christian Yoga Magazine, I have had the
+                  opportunity to write on various topics. I invite you to enjoy
+                  several articles about my personal and professional yoga
+                  journey.
                 </p>{" "}
               </div>
               <div className="CYM">
                 {" "}
                 <a href="https://christianyogamagazine.net/" target="_blank">
                   <img className="cym" src={CYM1} alt="" />
+               
                 </a>
+               
               </div>
+             
             </div>
           </div>
         </div>
@@ -250,6 +276,13 @@ const InfoContent = () => {
             >
               <div className="yoga1"></div>
             </a>
+            <p>Maricopa County Juvenile Probation Department</p>
+            <p>Phoenix, Arizona</p>
+            <p>
+              Bi-monthly yoga program serving both male and female
+              justice-impacted youth.
+            </p>
+            <p>May 2023</p>
           </div>
           <div className="videoright">
             <a
@@ -258,6 +291,16 @@ const InfoContent = () => {
             >
               <div className="yoga2"></div>
             </a>
+            <p>
+              Give Back Yoga Foundation supports the Yoga for Empowered Women
+              program with a mat donation from Gaiam.
+            </p>
+            <p>
+              Yoga for Empowered Women serves justice-impacted women in Arizona.{" "}
+            </p>
+            <p>https://givebackyoga.org/</p>
+            <p>https://www.gaiam.com/</p>
+            <p>February 2023</p>
           </div>
         </div>
       </div>
