@@ -53,15 +53,35 @@ const InfoContent = () => {
           <div className="leftinfo">
             <div className="leftinner">
               <div>
-                <h1 style={{ fontSize: "50px" }}>Past events</h1>
+                <h1 style={{ fontSize: "50px", display: "flex", justifyContent: "center", alignItems: "center" }}>Featured Program Events</h1>
               </div>
               <div>
-                {" "}
-                <p>
-                  These are some of my past events. To learn more about some of
-                  my past events or if you are interested in learning more about
-                  upcoming events please visit the links below.
-                </p>{" "}
+                <ul       style={{
+                  fontSize: "20px",
+                  marginTop: "10px",
+                  marginBottom: "10px",
+                  listStyleType: "disc",
+                }}>
+                  <li>The Yoga for Empowered Women Program serves justice-impacted women and is a signature program of Blessings Balance Breath Yoga.</li>
+                  <li>Give Back Yoga Foundation, Gaiam, The Pollination Project, and The Awesome Foundation Awesome without Borders/The Harnisch Foundation have provided support for the Yoga for Empowered Women Program.</li>
+                </ul>
+                <div style={{display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column"}}>
+                <a style={{color: "blue"}} href="https://www.gaiam.com/" target="_blank">https://www.gaiam.com/</a>
+                <a style={{color: "blue"}} href="https://givebackyoga.org/" target="_blank">https://givebackyoga.org/</a>
+                <a style={{color: "blue"}} href="https://thepollinationproject.org/" target="_blank">https://thepollinationproject.org/</a>
+                <a style={{color: "blue"}} href="https://www.awesomefoundation.org/en" target="_blank">https://www.awesomefoundation.org/en</a>
+                <a style={{color: "blue"}} href="https://www.awesomefoundation.org/en/chapters/awesomewithoutborders" target="_blank">https://www.awesomefoundation.org/en/chapters/awesomewithoutborders</a>
+                <a style={{color: "blue"}} href="https://thehf.org/" target="_blank">https://thehf.org/</a>
+                </div>
+                <ul       style={{
+                  fontSize: "20px",
+                  marginTop: "10px",
+                  marginBottom: "10px",
+                  listStyleType: "disc",
+                }}>
+                  <li>The Yoga for Empowered Women Program features justice-impacted women to share their stories with community supporters through mindfulness and creative journaling. </li>
+                </ul>
+                <p>To learn more about these events and upcoming ones, please visit the social media links below. </p>
               </div>
               <div>
                 {" "}
@@ -128,15 +148,21 @@ const InfoContent = () => {
           <div className="leftinfo">
             <div className="leftinner">
               <div>
-                <h1 style={{ fontSize: "50px" }}>More events</h1>
+                <h1 style={{ fontSize: "50px", display: "flex", justifyContent: "center", alignItems: "center" }}>Community and Program Events</h1>
               </div>
               <div>
                 {" "}
-                <p>
-                  These are some more of my past events. To learn more about
-                  some of my past events or if you are interested in learning
-                  more about upcoming events please visit the links below.
-                </p>{" "}
+         <ul style={{
+                  fontSize: "20px",
+                  marginTop: "10px",
+                  marginBottom: "10px",
+                  listStyleType: "disc",
+                }}>
+          <li>Family yoga at local libraries and community centers.</li>
+          <li>The Yoga for Empowered Women Program features justice-impacted women to share their stories with community supporters through the practice of yoga.</li>
+          <li>Christ-centered, faith-based yoga at local churches</li>
+         </ul>
+         <p>To learn more about these events, and upcoming ones, please visit the social media links below. </p>
               </div>
               <div>
                 {" "}
@@ -174,7 +200,7 @@ const InfoContent = () => {
           <div className="leftinfo">
             <div className="leftinner">
               <div>
-                <h1 style={{ fontSize: "50px" }}>Published Articles </h1>
+                <h1 style={{ fontSize: "50px", display: "flex", justifyContent: "center", alignItems: "center" }}>Published Articles </h1>
               </div>
               <div>
                 {" "}
@@ -195,31 +221,19 @@ const InfoContent = () => {
           <div className="rightinfo">
             <div className="pdfcontain" onClick={handleClick5}>
               <img className="eventimg" src={art5} alt="" />
-              <div className="articaltext">
-              {/* <p>Summer 2023 issue</p> */}
-                <p style={{fontSize: "11px"}}>Christ-centered Yoga Journaling for Tweens and Teen Girls</p>
-                </div>
+              
             </div>
             <div className="pdfcontain" onClick={handleClick6}>
               <img className="eventimg" src={art6} alt="" />
-              <div className="articaltext">
-              {/* <p>Summer 2023 issue</p> */}
-                <p style={{fontSize: "11px"}}>Yoga for All: My Journey Teaching Yoga in the Juvenile Detention System</p>
-                </div>
+            
             </div>
             <div className="pdfcontain" onClick={handleClick3}>
               <img className="eventimg" src={art3} alt="" />
-              <div className="articaltext">
-              {/* <p>Summer 2023 issue</p> */}
-                <p style={{fontSize: "11px"}}>An Interview with the Retreat Ladies</p>
-                </div>
+             
             </div>
             <div className="pdfcontain" onClick={handleClick4}>
               <img className="eventimg" src={art4} alt="" />
-              <div className="articaltext">
-              {/* <p>Summer 2023 issue</p> */}
-                <p style={{fontSize: "11px"}}>Reconnecting with Christ through Yoga and the Five Vital Organs</p>
-                </div>
+           
             </div>
           </div>
         </div>
@@ -227,24 +241,18 @@ const InfoContent = () => {
           <div className="rightinfo">
             <div className="pdfcontain1" onClick={handleClick1}>
               <img className="eventimg" src={art1} alt="" />
-              <div className="articaltext">
-              {/* <p>Summer 2023 issue</p> */}
-                <p style={{fontSize: "11px"}}>Christ-centered Trauma-Informed Practices on the Mat</p>
-                </div>
+             
             </div>
             <div className="pdfcontain2" onClick={handleClick2}>
               <img className="eventimg" src={art2} alt="" />
-              <div className="articaltext">
-              {/* <p>Summer 2023 issue</p> */}
-                <p style={{fontSize: "11px"}}>Surrender to God: Ten Yoga Props Used in Restorative and Yin Yoga Practices</p>
-                </div>
+           
             </div>
           </div>
 
           <div className="leftinfo">
             <div className="leftinner">
               <div>
-                <h1 style={{ fontSize: "50px" }}>Additional Articles</h1>
+                <h1 style={{ fontSize: "50px", display: "flex", justifyContent: "center", alignItems: "center" }}>Additional Articles</h1>
               </div>
               <div>
                 {" "}
@@ -276,9 +284,9 @@ const InfoContent = () => {
             >
               <div className="yoga1"></div>
             </a>
-            <p>Maricopa County Juvenile Probation Department</p>
+            <p style={{fontSize: "15px"}}>Maricopa County Juvenile Probation Department</p>
             <p>Phoenix, Arizona</p>
-            <p>
+            <p style={{fontSize: "15px"}}>
               Bi-monthly yoga program serving both male and female
               justice-impacted youth.
             </p>
@@ -291,16 +299,18 @@ const InfoContent = () => {
             >
               <div className="yoga2"></div>
             </a>
-            <p>
-              Give Back Yoga Foundation supports the Yoga for Empowered Women
-              program with a mat donation from Gaiam.
+            
+            <p style={{fontSize: "15px", width: "80%", marginTop: "10px"}}>
+            Give Back Yoga Foundation supports the Yoga for Empowered Women Program, serving justice-impacted women, with a Gaiam mat donation.
             </p>
-            <p>
-              Yoga for Empowered Women serves justice-impacted women in Arizona.{" "}
-            </p>
-            <p>https://givebackyoga.org/</p>
-            <p>https://www.gaiam.com/</p>
-            <p>February 2023</p>
+          
+            <a href="https://givebackyoga.org/" target="_blank">
+            <p style={{color: "blue", fontSize: "15px"}}>https://givebackyoga.org/</p>
+            </a>
+            <a href="https://www.gaiam.com/" target="_blank">
+            <p style={{color: "blue", fontSize: "15px"}}>https://www.gaiam.com/</p>
+            </a>
+            <p style={{fontSize: "15px"}}>February 2023</p>
           </div>
         </div>
       </div>
