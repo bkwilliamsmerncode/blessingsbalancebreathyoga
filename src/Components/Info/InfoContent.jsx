@@ -66,12 +66,12 @@ const InfoContent = () => {
                   <li>Give Back Yoga Foundation, Gaiam, The Pollination Project, and The Awesome Foundation Awesome without Borders/The Harnisch Foundation have provided support for the Yoga for Empowered Women Program.</li>
                 </ul>
                 <div style={{display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column"}}>
-                <a style={{color: "blue"}} href="https://www.gaiam.com/" target="_blank">https://www.gaiam.com/</a>
-                <a style={{color: "blue"}} href="https://givebackyoga.org/" target="_blank">https://givebackyoga.org/</a>
-                <a style={{color: "blue"}} href="https://thepollinationproject.org/" target="_blank">https://thepollinationproject.org/</a>
-                <a style={{color: "blue"}} href="https://www.awesomefoundation.org/en" target="_blank">https://www.awesomefoundation.org/en</a>
-                <a style={{color: "blue"}} href="https://www.awesomefoundation.org/en/chapters/awesomewithoutborders" target="_blank">https://www.awesomefoundation.org/en/chapters/awesomewithoutborders</a>
-                <a style={{color: "blue"}} href="https://thehf.org/" target="_blank">https://thehf.org/</a>
+                <a className="links"  href="https://www.gaiam.com/" target="_blank">https://www.gaiam.com/</a>
+                <a className="links"  href="https://givebackyoga.org/" target="_blank">https://givebackyoga.org/</a>
+                <a className="links"  href="https://thepollinationproject.org/" target="_blank">https://thepollinationproject.org/</a>
+                <a className="links"  href="https://www.awesomefoundation.org/en" target="_blank">https://www.awesomefoundation.org/en</a>
+                <a className="links"  href="https://www.awesomefoundation.org/en/chapters/awesomewithoutborders" target="_blank">https://www.awesomefoundation.org/en/chapters/awesomewithoutborders</a>
+                <a className="links"  href="https://thehf.org/" target="_blank">https://thehf.org/</a>
                 </div>
                 <ul       style={{
                   fontSize: "20px",
@@ -305,10 +305,10 @@ const InfoContent = () => {
             </p>
           
             <a href="https://givebackyoga.org/" target="_blank">
-            <p style={{color: "blue", fontSize: "15px"}}>https://givebackyoga.org/</p>
+            <p className="links" style={{fontSize: "15px"}}>https://givebackyoga.org/</p>
             </a>
             <a href="https://www.gaiam.com/" target="_blank">
-            <p style={{color: "blue", fontSize: "15px"}}>https://www.gaiam.com/</p>
+            <p className="links" style={{fontSize: "15px"}}>https://www.gaiam.com/</p>
             </a>
             <p style={{fontSize: "15px"}}>February 2023</p>
           </div>

@@ -273,6 +273,14 @@
   font-size: small;
 }
 
+.links {
+ color: white;
+}
+
+.links:hover {
+color: blue;
+}
+
 @media screen and (max-width: 800px) {
   .maininfo {
     flex-direction: column;
