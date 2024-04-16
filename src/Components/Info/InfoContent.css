@@ -4,7 +4,8 @@
 }
 
 .infoheader {
-  margin-top: 100px;
+  margin-top: 120px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 60px;
 }
@@ -220,10 +221,11 @@
 
 .videoheader {
   width: 100%;
-  margin: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   font-size: 50px;
   text-align: center;
-  margin-top: 20px;
+  font-weight: bold;
 }
 
 .videoleft {
@@ -273,6 +275,14 @@
   font-size: small;
 }
 
+.links {
+  color: white;
+}
+
+.links:hover {
+  color: blue;
+}
+
 @media screen and (max-width: 800px) {
   .maininfo {
     flex-direction: column;
@@ -305,35 +315,35 @@
   .yoga1 {
     width: 375px;
   }
-.img1 {
+  .img1 {
     width: 300px;
-}
+  }
 
-.img2 {
+  .img2 {
     width: 300px;
-}
+  }
 
-.img3 {
+  .img3 {
     width: 300px;
-}
+  }
 
-.img4 {
+  .img4 {
     width: 300px;
-}
+  }
 
-.img5 {
+  .img5 {
     width: 300px;
-}
+  }
 
-.img6 {
+  .img6 {
     width: 300px;
-}
+  }
 
-.img7 {
+  .img7 {
     width: 300px;
-}
+  }
 
-.img8 {
+  .img8 {
     width: 300px;
-}
+  }
 }

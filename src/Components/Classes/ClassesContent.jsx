@@ -80,12 +80,12 @@ const ClassesContent = () => {
               textAlign: "center",
             }}
           >
-           Available to travel state-wide 
-Limited online workshops are available
-Payment accepted: Venmo, Zelle, and business/school/organizational checks
-<br />
-Fees are based on a sliding scale to accommodate organizational needs
-
+            Available to travel state-wide Limited online workshops are
+            available Payment accepted: Venmo, Zelle, and
+            business/school/organizational checks
+            <br />
+            Fees are based on a sliding scale to accommodate organizational
+            needs
           </p>
         </div>
         <div class="main-prices">
