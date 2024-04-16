@@ -1,119 +1,118 @@
-.back{
-    padding: 3rem 7%;
-  }
-  .mian-home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 6%;
-  }
-  .inner-home{
-    flex: 1 1 45rem;
-    text-align: center;
-  }
-  .inner-home img{
-    width: 100%;
-  }
-  .inner-content h1{
-    color: var(--mainclr);
-    font-size: 70px;
-    margin-bottom: 10px;
-  }
-  .inner-content p{
-    font-size: 1.5rem;
-    color: black;
-    margin-bottom: 20px;
-    padding: 0 6rem;
-    line-height: 1.5;
-  }
-  .inner-content a{
-    padding: 1rem 4rem;
-    background: var(--mainclr);
-    color: white;
-    font-size: 1.5rem;
-    border-radius: 15px;
-  }
+.back {
+  padding: 3rem 7%;
+}
+.mian-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 6%;
+}
+.inner-home {
+  flex: 1 1 45rem;
+  text-align: center;
+}
+.inner-home img {
+  width: 100%;
+}
+.inner-content h1 {
+  color: var(--mainclr);
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+.inner-content p {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 20px;
+  padding: 0 6rem;
+  line-height: 1.5;
+}
+.inner-content a {
+  padding: 1rem 4rem;
+  background: var(--mainclr);
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 15px;
+}
 
-  .regbtn {
-    width: 120px;
-    padding: 10px;
-    background-color: var(--secondclr);
-    border-radius: 13px;
-    border: none;
-    font-weight: bold;
-  }
+.regbtn {
+  width: 120px;
+  padding: 10px;
+  background-color: var(--secondclr);
+  border-radius: 13px;
+  border: none;
+  font-weight: bold;
+}
 
-  .regbtn:hover {
-    background-color: white;
-    cursor: pointer;
-  }
-  
+.regbtn:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.forimg1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/forbg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 600px;
+}
+
+.forimginner1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/donna5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+}
+
+.logosdiv {
+  width: 100%;
+  height: auto;
+}
+
+.logosimg1 {
+  size: 20px;
+}
+
+.yogaall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 1px black; */
+  height: 120px;
+}
+
+.yogaallinner {
+  background-image: url(../../images/logos.png);
+  width: 300px;
+  height: 100px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
   .forimg1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../images/forbg.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 600px;
-    height: 600px;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
   }
-
   .forimginner1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../images/donna5.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 380px;
-    height: 380px;
-    border-radius: 50%;
+    width: 250px;
+    height: 250px;
   }
 
-  .logosdiv {
-    width: 100%;
-    height: auto;
+  .inner-content h1 {
+    font-size: 50px;
   }
-
-  .logosimg1 {
- size: 20px;
-  
-  }
-
-  .yogaall {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: solid 1px black; */
-   height: 120px;
-  }
-
-  .yogaallinner {
-background-image: url(../../images/logos.png);
-width: 300px;
-height: 100px;
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-  }
-
-  @media  (max-width: 767px) {
-    .forimg1 {
-      margin-top: 50px;
-      width: 400px;
-      height: 400px;
-    }
-    .forimginner1 {
-      width: 250px;
-      height: 250px;
-    }
-
-    .inner-content h1 {
-      font-size: 50px;
-    }
-  }
+}

@@ -1,201 +1,192 @@
-.our-classes{
-    padding: 6rem 7%;
-    background: var(--mainclr);
-  }
-  .our-classes h1{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-  .main-class{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
-  
-  }
-  .inner-class{
-    flex: 1 1 300px;
-    text-align: center;
-  }
-  .inner-class img{
+.our-classes {
+  padding: 6rem 7%;
+  background: var(--mainclr);
+}
+.our-classes h1 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.main-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.inner-class {
+  flex: 1 1 300px;
+  text-align: center;
+}
+.inner-class img {
   width: 90%;
-  }
-  .class-content h2{
-    color: white;
-    font-size: 25px;
-    margin: 20px 0;
-  }
-  .class-content p{
-    color: white;
-    font-size: 1.5rem;
-    margin-bottom: 25px;
-  }
-  .class-content a{
-    background: white;
-    font-size: 1.5rem;
-    color: black;
-    border-radius: 15px;
-    padding: 1rem 3rem;
-    margin: 15px 0;
-  }
+}
+.class-content h2 {
+  color: white;
+  font-size: 25px;
+  margin: 20px 0;
+}
+.class-content p {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+.class-content a {
+  background: white;
+  font-size: 1.5rem;
+  color: black;
+  border-radius: 15px;
+  padding: 1rem 3rem;
+  margin: 15px 0;
+}
 
-  .regbtn2 {
-    width: 120px;
-    padding: 10px;
-    background-color: var(white);
-    border-radius: 13px;
-    border: none;
-    font-weight: bold;
-  }
+.regbtn2 {
+  width: 120px;
+  padding: 10px;
+  background-color: var(white);
+  border-radius: 13px;
+  border: none;
+  font-weight: bold;
+}
 
-  .regbtn2:hover {
-    background-color: var(--secondclr);
-    cursor: pointer;
-  }
+.regbtn2:hover {
+  background-color: var(--secondclr);
+  cursor: pointer;
+}
 
+.forimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/class1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+}
 
-  .forimg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../images/class1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 400px;
-    height: 400px;
-  }
+.forimginner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/donna3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 325px;
+  height: 325px;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+.forimg3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/class1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+}
 
-  .forimginner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../images/donna3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 325px;
-    height: 325px;
-    border-radius: 50%;
-    margin-right: 9px;
-  }
-  .forimg3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../images/class1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 400px;
-    height: 400px;
-  }
+.forimginner3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/donna6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 325px;
+  height: 325px;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+.forimg4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/class1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+}
 
-  .forimginner3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../images/donna6.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 325px;
-    height: 325px;
-    border-radius: 50%;
-    margin-right: 9px;
-  }
-  .forimg4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../images/class1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 400px;
-    height: 400px;
-  }
+.forimginner4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/donna4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 325px;
+  height: 325px;
+  border-radius: 50%;
+  margin-right: 9px;
+}
 
-  .forimginner4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../images/donna4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 325px;
-    height: 325px;
-    border-radius: 50%;
-    margin-right: 9px;
-  }
+.our-prices {
+  padding: 8rem 7%;
+  background: var(--mainclr);
+}
+.our-prices h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-prices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+.inner-prices {
+  flex: 1 1 300px;
+  padding: 4rem 1rem;
+  background: white;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.inner-prices h2 {
+  font-size: 25px;
+  color: var(--mainclr);
+  margin-bottom: 15px;
+}
+.inner-prices h3 {
+  font-size: 20px;
+  color: var(--mainclr);
+  margin-bottom: 15px;
+}
+.price-icon i {
+  font-size: 80px;
+  margin-bottom: 25px;
+  color: var(--mainclr);
+}
+.inner-prices a {
+  padding: 1rem 3rem;
+  background: var(--mainclr);
+  font-size: 1.5rem;
+  color: black;
+  border-radius: 15px;
+}
 
-  .our-prices{
-    padding: 8rem 7%;
-    background: var(--mainclr);
-  }
-  .our-prices h1{
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .main-prices{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 100px;
-  }
-  .inner-prices{
-    flex: 1 1 300px;
-    padding: 4rem 1rem;
-    background: white;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  .inner-prices h2{
-    font-size: 25px;
-    color: var(--mainclr);
-    margin-bottom: 15px;
-  }
-  .inner-prices h3{
-    font-size: 20px;
-    color: var(--mainclr);
-    margin-bottom: 15px;
-  }
-  .price-icon i{
-    font-size:80px;
-    margin-bottom: 25px;
-    color: var(--mainclr);
-  }
-  .inner-prices a{
-    padding: 1rem 3rem;
-    background: var(--mainclr);
-    font-size: 1.5rem;
-    color: black;
-    border-radius: 15px;
-  }
+.regbtn1 {
+  width: 120px;
+  padding: 10px;
+  background-color: var(--mainclr);
+  border-radius: 13px;
+  border: none;
+  font-weight: bold;
+}
 
-  .regbtn1 {
-    width: 120px;
-    padding: 10px;
-    background-color: var(--mainclr);
-    border-radius: 13px;
-    border: none;
-    font-weight: bold;
-  }
-
-  .regbtn1:hover {
-    background-color: white;
-    cursor: pointer;
-  }
-  
-  
-  
-  
-  
-  
-  
+.regbtn1:hover {
+  background-color: white;
+  cursor: pointer;
+}
