@@ -42,7 +42,7 @@ const Footer = () => {
           <div className="right">
             <p>Site by Brian K. Williams Full-Stack Web Developer</p>
             <p>
-              <FaRegCopyright /> Blessings, Balance, Breath, Yoga 2024
+              <FaRegCopyright /> Blessings Balance Breath Yoga 2024
             </p>
             <div className="social">
               <a href=" https://www.yogaalliance.org/ " target="_blank">

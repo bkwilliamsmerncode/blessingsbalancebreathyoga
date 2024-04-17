@@ -82,7 +82,7 @@ const InfoContent = () => {
                   </li>
                   <li>
                     Give Back Yoga Foundation, Gaiam, The Pollination Project,
-                    and The Awesome Foundation Awesome without Borders/The
+                    and The Awesome Foundation/Awesome without Borders/The
                     Harnisch Foundation have provided support for the Yoga for
                     Empowered Women Program.
                   </li>
@@ -249,7 +249,7 @@ const InfoContent = () => {
                     justice-impacted women to share their stories with community
                     supporters through the practice of yoga.
                   </li>
-                  <li>Christ-centered, faith-based yoga at local churches</li>
+                  <li>Christ-centered, faith-based yoga at local churches.</li>
                 </ul>
                 <p>
                   To learn more about these events, and upcoming ones, please
