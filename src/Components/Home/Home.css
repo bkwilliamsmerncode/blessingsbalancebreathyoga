@@ -2,6 +2,7 @@
   padding: 3rem 7%;
 }
 .mian-home {
+  max-width: 1550px;
   display: flex;
   justify-content: center;
   align-items: center;
