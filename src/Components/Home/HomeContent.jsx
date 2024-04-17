@@ -19,7 +19,7 @@ const HomeContent = () => {
           </div>
 
           <div class="inner-home">
-            <div class="inner-content">
+            <div class="inner-content" style={{marginTop: "50px"}}>
               <h1 style={{ color: "black" }}>Blessings Balance Breath Yoga</h1>
 
               <p style={{ fontSize: "20px" }}>
