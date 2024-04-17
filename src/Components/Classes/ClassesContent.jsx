@@ -34,7 +34,7 @@ const ClassesContent = () => {
               <div className="forimginner3"></div>
             </div>
             <div class="class-content">
-              <h2>Social Services & Faith-Based Organizations</h2>
+              <h2>Community Service & Faith Based Organization Programs</h2>
               <p>Faith-based classes and workshops</p>
               <p>Yoga for Healing </p>
               <p>Womens groups</p>
@@ -80,9 +80,9 @@ const ClassesContent = () => {
               textAlign: "center",
             }}
           >
-            Available to travel state-wide Limited online workshops are
-            available Payment accepted: Venmo, Zelle, and
-            business/school/organizational checks
+            Available to travel state-wide. Limited online workshops are
+            available. Payment accepted: Venmo, Zelle, and
+            business/school/organizational checks.
             <br />
             Fees are based on a sliding scale to accommodate organizational
             needs
@@ -101,7 +101,7 @@ const ClassesContent = () => {
           </div>
 
           <div class="inner-prices">
-            <h2>Social Services & Faith-Based Organizations</h2>
+            <h2>Community Service & Faith Based Organization Programs</h2>
             <h3>prices : $100.00/hr</h3>
             <div class="price-icon">
               <i class="fas fa-award"></i>

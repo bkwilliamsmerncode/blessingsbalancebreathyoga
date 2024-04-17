@@ -12,7 +12,7 @@ const AboutContent = () => {
   return (
     <>
       <div class="our-instructor">
-        <h1 style={{ marginTop: "60px", fontSize: "50px" }}>Our instructor</h1>
+        <h1 style={{ marginTop: "60px", fontSize: "50px" }}>Founder & Instructor</h1>
         <div class="main-instructor">
           <div class="inner-instructor">
             <div class="inner-content-instructor">
@@ -22,7 +22,7 @@ const AboutContent = () => {
                 "Lokah Samastah Sukhino Bhavantu"
               </p>
               <p style={{ textAlign: "center", fontSize: "20px" }}>
-                "May all beings everywhere be happy and free And may the
+                "May all beings everywhere be happy and free. And may the
                 thoughts, words, and actions of my own life contribute in some
                 way to that happiness and to that freedom for all."
               </p>

@@ -24,8 +24,8 @@ const HomeContent = () => {
 
               <p style={{ fontSize: "20px" }}>
                 Dedicated to bringing yoga to underserved, underrepresented,
-                marginalized, and system/justice-impacted populations Providing
-                the healing practice of yoga to reclaim empowerment and harmony
+                marginalized, and system/justice-impacted populations. Providing
+                the healing practice of yoga to reclaim empowerment and harmony.
                 Restoring self-esteem, self-efficacy, and individualism
               </p>
 
