@@ -150,10 +150,10 @@ const ContactContent = () => {
                 type="submit"
                 className="subbtn"
                 disabled={
-                  !input.name ||
-                  !input.email ||
-                  !input.subject ||
-                  !input.message
+                  input.name == "" ||
+                  input.email == "" ||
+                  input.subject == "" ||
+                  input.message == ""
                 }
               >
                 <p>Submit</p>
