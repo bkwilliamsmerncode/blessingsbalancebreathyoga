@@ -63,7 +63,7 @@ const ClassesContent = () => {
               </div>
             </div>
           </div>
-        </div>
+        
         <div class="our-prices">
           <h1 style={{ fontSize: "50px" }}>Prices</h1>
           <div
@@ -123,6 +123,7 @@ const ClassesContent = () => {
               </button>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </>
