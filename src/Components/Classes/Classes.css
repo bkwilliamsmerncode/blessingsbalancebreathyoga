@@ -1,7 +1,7 @@
 .our-classes {
   padding: 6rem 7%;
   background: var(--mainclr);
-  max-width: 1440px;
+  max-width: 1800px;
 }
 .our-classes h1 {
   text-align: center;
@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   gap: 50px;
 }
 .inner-class {

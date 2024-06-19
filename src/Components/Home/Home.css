@@ -4,7 +4,7 @@
   
 }
 .mian-home {
-  max-width: 1440px;
+  max-width: 1600px;
   height: 60vh;
 display: flex;
 justify-content: center;
@@ -108,9 +108,9 @@ align-items: center;
   background-repeat: no-repeat;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1300px) {
   .forimg1 {
-    margin-top: 50px;
+    margin-top: 100px;
     width: 400px;
     height: 400px;
   }
@@ -121,5 +121,12 @@ align-items: center;
 
   .inner-content h1 {
     font-size: 50px;
+  }
+  .mian-home {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
