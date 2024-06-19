@@ -24,11 +24,9 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      
-        <Link to="/">
-          <img src={bbbylogo2} alt="" className="logodiv" />
-        </Link>
-     
+      <Link to="/">
+        <img src={bbbylogo2} alt="" className="logodiv" />
+      </Link>
 
       <ul className={modal ? "nav-menu active" : "nav-menu"}>
         <li>

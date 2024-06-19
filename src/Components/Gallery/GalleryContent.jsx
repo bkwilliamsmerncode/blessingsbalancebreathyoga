@@ -36,136 +36,136 @@ import Gallery32 from "../../images/gallery32.jpg";
 const GalleryContent = () => {
   return (
     <>
-    <div className="xlscreens">
-      <div class="our-gallery">
-        <h1 style={{ marginTop: "60px", fontSize: "60px", color: "black" }}>
-          Gallery
-        </h1>
-        <div class="main-gallery">
-          <div class="inner-gallery">
-            <img src={Gallery1} alt="" />
-          </div>
+      <div className="xlscreens">
+        <div class="our-gallery">
+          <h1 style={{ marginTop: "60px", fontSize: "60px", color: "black" }}>
+            Gallery
+          </h1>
+          <div class="main-gallery">
+            <div class="inner-gallery">
+              <img src={Gallery1} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery2} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery2} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery3} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery3} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery4} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery4} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery5} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery5} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery6} alt="" />
-          </div>
-          <div class="inner-gallery">
-            <img src={Gallery7} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery6} alt="" />
+            </div>
+            <div class="inner-gallery">
+              <img src={Gallery7} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery8} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery8} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery9} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery9} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery10} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery10} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery11} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery11} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery12} alt="" />
-          </div>
-          <div class="inner-gallery">
-            <img src={Gallery13} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery12} alt="" />
+            </div>
+            <div class="inner-gallery">
+              <img src={Gallery13} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery14} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery14} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery15} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery15} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery16} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery16} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery17} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery17} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery18} alt="" />
-          </div>
-          <div class="inner-gallery">
-            <img src={Gallery19} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery18} alt="" />
+            </div>
+            <div class="inner-gallery">
+              <img src={Gallery19} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery20} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery20} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery21} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery21} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery22} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery22} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery23} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery23} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery24} alt="" />
-          </div>
-          <div class="inner-gallery">
-            <img src={Gallery25} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery24} alt="" />
+            </div>
+            <div class="inner-gallery">
+              <img src={Gallery25} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery26} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery26} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery27} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery27} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery28} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery28} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery29} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery29} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery30} alt="" />
-          </div>
-          <div class="inner-gallery">
-            <img src={Gallery31} alt="" />
-          </div>
+            <div class="inner-gallery">
+              <img src={Gallery30} alt="" />
+            </div>
+            <div class="inner-gallery">
+              <img src={Gallery31} alt="" />
+            </div>
 
-          <div class="inner-gallery">
-            <img src={Gallery32} alt="" />
+            <div class="inner-gallery">
+              <img src={Gallery32} alt="" />
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </>
   );
