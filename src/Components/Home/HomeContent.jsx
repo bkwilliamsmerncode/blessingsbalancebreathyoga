@@ -10,7 +10,8 @@ const HomeContent = () => {
 
   return (
     <>
-      <div id="home" class="back">
+    <div className="xlscreens">
+      
         <div class="mian-home">
           <div class="inner-home">
             <div className="forimg1">
@@ -34,13 +35,14 @@ const HomeContent = () => {
               </button>
 
               <div className="yogaall">
-                <a href="https://www.yogaalliance.org/" target="_blank">
+                <a href="https://www.yogaalliance.org/"  target="_blank">
                   <div className="yogaallinner"></div>
                 </a>
               </div>
             </div>
           </div>
         </div>
+      
       </div>
     </>
   );

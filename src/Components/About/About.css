@@ -1,6 +1,8 @@
 .our-instructor {
   padding: 4rem 7%;
   background-color: var(--mainclr);
+  max-width: 1440px;
+
 }
 .our-instructor h1 {
   color: black;

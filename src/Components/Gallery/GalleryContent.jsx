@@ -36,6 +36,7 @@ import Gallery32 from "../../images/gallery32.jpg";
 const GalleryContent = () => {
   return (
     <>
+    <div className="xlscreens">
       <div class="our-gallery">
         <h1 style={{ marginTop: "60px", fontSize: "60px", color: "black" }}>
           Gallery
@@ -164,6 +165,7 @@ const GalleryContent = () => {
             <img src={Gallery32} alt="" />
           </div>
         </div>
+      </div>
       </div>
     </>
   );

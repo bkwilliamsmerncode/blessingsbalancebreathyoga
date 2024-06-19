@@ -1,6 +1,7 @@
 .contact-us {
   padding: 6rem 7%;
   background: var(--mainclr);
+  max-width: 1440px;
 }
 .main-contact {
   display: flex;

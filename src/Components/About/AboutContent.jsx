@@ -11,6 +11,7 @@ const AboutContent = () => {
 
   return (
     <>
+    <div className="xlscreens">
       <div class="our-instructor">
         <h1 style={{ marginTop: "60px", fontSize: "50px" }}>Founder & Instructor</h1>
         <div class="main-instructor">
@@ -141,6 +142,7 @@ const AboutContent = () => {
             <img src={donna9} alt="" />
           </div>
         </div>
+      </div>
       </div>
     </>
   );

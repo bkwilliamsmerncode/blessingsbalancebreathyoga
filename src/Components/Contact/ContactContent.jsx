@@ -48,6 +48,7 @@ const ContactContent = () => {
 
   return (
     <>
+    <div className="xlscreens">
       <div class="contact-us">
         <div class="main-contact">
           <div class="inner-contact">
@@ -165,6 +166,7 @@ const ContactContent = () => {
             <img src={donna5} alt="" />
           </div>
         </div>
+      </div>
       </div>
     </>
   );

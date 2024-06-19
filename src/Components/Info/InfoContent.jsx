@@ -9,14 +9,14 @@ import pdf5 from "../../assets/artical5.pdf";
 import pdf6 from "../../assets/artical6.pdf";
 
 import CYM1 from "../../images/CYM1.png";
-import event1 from "../../images/event1.jpg";
-import event2 from "../../images/event2.jpg";
-import event3 from "../../images/event3.JPG";
-import event4 from "../../images/event4.jpg";
-import event5 from "../../images/event5.JPG";
-import event6 from "../../images/event6.jpg";
-import event7 from "../../images/event7.jpg";
-import event8 from "../../images/event8.jpg";
+// import event1 from "../../images/event1.jpg";
+// import event2 from "../../images/event2.jpg";
+// import event3 from "../../images/event3.JPG";
+// import event4 from "../../images/event4.jpg";
+// import event5 from "../../images/event5.JPG";
+// import event6 from "../../images/event6.jpg";
+// import event7 from "../../images/event7.jpg";
+// import event8 from "../../images/event8.jpg";
 import art1 from "../../images/articalcover1.png";
 import art2 from "../../images/articalcover2.png";
 import art3 from "../../images/articalcover3.png";
@@ -47,6 +47,7 @@ const InfoContent = () => {
 
   return (
     <>
+    <div className="xlscreens">
       <div className="infomain">
         <div className="infoheader" style={{ fontWeight: "bold" }}>
           Resources
@@ -99,6 +100,7 @@ const InfoContent = () => {
                     className="links"
                     href="https://www.gaiam.com/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     https://www.gaiam.com/
                   </a>
@@ -106,6 +108,7 @@ const InfoContent = () => {
                     className="links"
                     href="https://givebackyoga.org/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     https://givebackyoga.org/
                   </a>
@@ -113,6 +116,7 @@ const InfoContent = () => {
                     className="links"
                     href="https://thepollinationproject.org/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     https://thepollinationproject.org/
                   </a>
@@ -120,6 +124,7 @@ const InfoContent = () => {
                     className="links"
                     href="https://www.awesomefoundation.org/en"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     https://www.awesomefoundation.org/en
                   </a>
@@ -127,6 +132,7 @@ const InfoContent = () => {
                     className="links"
                     href="https://www.awesomefoundation.org/en/chapters/awesomewithoutborders"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     https://www.awesomefoundation.org/en/chapters/awesomewithoutborders
                   </a>
@@ -134,6 +140,7 @@ const InfoContent = () => {
                     className="links"
                     href="https://thehf.org/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     https://thehf.org/
                   </a>
@@ -163,6 +170,7 @@ const InfoContent = () => {
                   <a
                     href="https://www.facebook.com/profile.php?id=100095239536075"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <div className="falinks">
                       <FaFacebook />
@@ -171,6 +179,7 @@ const InfoContent = () => {
                   <a
                     href="https://www.instagram.com/blessingsbalancebreathyoga/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <div className="falinks">
                       <FaInstagram />
@@ -179,6 +188,7 @@ const InfoContent = () => {
                   <a
                     href="https://www.linkedin.com/company/blessings-balance-and-breath-yoga"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <div className="falinks">
                       <FaLinkedin />
@@ -262,6 +272,7 @@ const InfoContent = () => {
                   <a
                     href="https://www.facebook.com/profile.php?id=100095239536075"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <div className="falinks">
                       <FaFacebook />
@@ -270,6 +281,7 @@ const InfoContent = () => {
                   <a
                     href="https://www.instagram.com/blessingsbalancebreathyoga/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <div className="falinks">
                       <FaInstagram />
@@ -278,6 +290,7 @@ const InfoContent = () => {
                   <a
                     href="https://www.linkedin.com/company/blessings-balance-and-breath-yoga"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <div className="falinks">
                       <FaLinkedin />
@@ -313,7 +326,7 @@ const InfoContent = () => {
               </div>
               <div className="CYM">
                 {" "}
-                <a href="https://christianyogamagazine.net/" target="_blank">
+                <a href="https://christianyogamagazine.net/" rel="noreferrer" target="_blank">
                   <img className="cym" src={CYM1} alt="" />
                 </a>
               </div>
@@ -382,6 +395,7 @@ const InfoContent = () => {
             <a
               href="https://youtu.be/LE5qrYvdR1g?si=afUI84WFmndj38XK"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="yoga1"></div>
             </a>
@@ -399,6 +413,7 @@ const InfoContent = () => {
             <a
               href="https://www.facebook.com/reel/2461781727363720?fs=e&s=TIeQ9V&mibextid=xCPwDs"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="yoga2"></div>
             </a>
@@ -409,12 +424,12 @@ const InfoContent = () => {
               donation.
             </p>
 
-            <a href="https://givebackyoga.org/" target="_blank">
+            <a href="https://givebackyoga.org/" rel="noreferrer" target="_blank">
               <p className="links" style={{ fontSize: "15px" }}>
                 https://givebackyoga.org/
               </p>
             </a>
-            <a href="https://www.gaiam.com/" target="_blank">
+            <a href="https://www.gaiam.com/" rel="noreferrer" target="_blank">
               <p className="links" style={{ fontSize: "15px" }}>
                 https://www.gaiam.com/
               </p>
@@ -422,6 +437,7 @@ const InfoContent = () => {
             <p style={{ fontSize: "15px" }}>February 2023</p>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
