@@ -11,6 +11,8 @@ import {
 import "./Footer.css";
 import Logos from "../../images/logos.png";
 import { FaRegCopyright } from "react-icons/fa6";
+import logo2 from "../../images/logo2.png"
+import logo3 from "../../images/logo3.png"
 
 const Footer = () => {
   return (
@@ -75,6 +77,10 @@ const Footer = () => {
                   style={{ color: "black", marginRight: "2rem" }}
                 />
               </a>
+            </div>
+            <div style={{display: "flex"}}>
+              <a href="https://www.christianyogaassociation.org" rel="noreferrer" target="_blank"><div className="logo3"></div></a>
+              <a href="https://www.christianyogaassociation.org" rel="noreferrer" target="_blank"><div className="logo2"></div></a>
             </div>
           </div>
         </div>
