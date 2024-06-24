@@ -1,0 +1,20 @@
+
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Disallow: /search
+
+
+User-agent: *
+Allow: /public/
+Allow: /images/
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /jsx/
+
+Sitemap: https://www.blessingsbalancebreathyoga.com/sitemap.xml
+
+User-agent: BadBot
+Disallow: /
