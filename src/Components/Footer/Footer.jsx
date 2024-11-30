@@ -44,7 +44,7 @@ const Footer = () => {
           <div className="right">
             <p>Site by Brian K. Williams Full-Stack Web Developer</p>
             <p>
-              <FaRegCopyright /> Blessings Balance Breath Yoga 2024
+              <FaRegCopyright />A 501(c)(3) Organization. EIN: 33-1997810 Blessings Balance Breath Yoga 2024
             </p>
             <div className="social">
               <a href=" https://www.yogaalliance.org/ " target="_blank">
