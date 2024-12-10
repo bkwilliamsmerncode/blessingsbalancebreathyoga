@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import bbbylogo2 from "../../images/bbbylogo2.png";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const nav = useNavigate();
   const [modal, setModal] = useState(false);
   const [color, setColor] = useState(false);
 
@@ -39,8 +41,8 @@ const Navbar = () => {
           <div class="dropdown">
   <div class="dropbtn">About</div>
   <div class="dropdown-content">
-    <a href="#">Founder</a>
-    <a href="#">Board Of Directors</a>
+    <a href="/About" >Founder</a>
+    <a href="/About2" >Board Of Directors</a>
   </div>
 </div>
           </Link>
