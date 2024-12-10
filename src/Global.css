@@ -17,10 +17,23 @@
 :root {
   --mainclr: #6c9894;
   --secondclr: #d0efe1;
-}
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  }
 
 body {
   background-color: #6c9894;
+}
+
+body {
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 h1,

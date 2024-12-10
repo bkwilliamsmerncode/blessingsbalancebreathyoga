@@ -1,0 +1,46 @@
+.our-instructor {
+    padding: 4rem 7%;
+    background-color: var(--mainclr);
+    max-width: 1800px;
+  }
+  .our-instructor h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .main-instructor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .inner-instructor {
+    flex: 1 1 45rem;
+  }
+  .inner-instructor img {
+    width: 100%;
+  }
+  .inner-content-instructor {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .inner-content-instructor h2 {
+    font-size: 60px;
+    color: black;
+  }
+  .inner-content-instructor p {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .inner-content-instructor a {
+    color: black;
+    background: var(--mainclr);
+    padding: 1rem 3rem;
+    border-radius: 15px;
+    font-size: 1.5rem;
+  }
+  
