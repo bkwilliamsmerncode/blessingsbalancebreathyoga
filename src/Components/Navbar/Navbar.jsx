@@ -41,8 +41,8 @@ const Navbar = () => {
           <div class="dropdown">
   <div class="dropbtn">About</div>
   <div class="dropdown-content">
-    <a href="/About" >Founder</a>
-    <a href="/About2" >Board Of Directors</a>
+    <Link to="/About" >Founder</Link>
+    <Link to="/About2" >Board Of Directors</Link>
   </div>
 </div>
           </Link>
