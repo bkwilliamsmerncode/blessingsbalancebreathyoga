@@ -5,14 +5,11 @@ import {
   FaLinkedin,
   FaFacebook,
   FaMailBulk,
-  FaPhone,
-  FaCopyright,
 } from "react-icons/fa";
 import "./Footer.css";
 import Logos from "../../images/logos.png";
 import { FaRegCopyright } from "react-icons/fa6";
-import logo2 from "../../images/logo2.png"
-import logo3 from "../../images/logo3.png"
+
 
 const Footer = () => {
   return (
@@ -53,6 +50,7 @@ const Footer = () => {
               <a
                 href="https://www.facebook.com/profile.php?id=100095239536075"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaFacebook
                   size={30}
@@ -62,6 +60,7 @@ const Footer = () => {
               <a
                 href="https://www.instagram.com/blessingsbalancebreathyoga/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaInstagram
                   size={30}
@@ -71,6 +70,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/company/blessings-balance-and-breath-yoga"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaLinkedin
                   size={30}
