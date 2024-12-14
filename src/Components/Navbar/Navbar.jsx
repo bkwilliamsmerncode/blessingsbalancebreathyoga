@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import bbbylogo2 from "../../images/bbbylogo2.png";
-import { useNavigate } from "react-router-dom";
+
 
 const Navbar = () => {
-  const nav = useNavigate();
+
   const [modal, setModal] = useState(false);
   const [color, setColor] = useState(false);
 
@@ -66,6 +66,11 @@ const Navbar = () => {
         <li>
           <Link to="/Contact">
             <p>Contact</p>
+          </Link>
+        </li>
+        <li>
+          <Link to="/YogaWaiverForm">
+            <p>Waiver</p>
           </Link>
         </li>
       </ul>

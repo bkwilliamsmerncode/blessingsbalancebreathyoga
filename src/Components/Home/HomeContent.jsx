@@ -31,7 +31,7 @@ const HomeContent = () => {
               </button>
 
               <div className="yogaall">
-                <a href="https://www.yogaalliance.org/" target="_blank">
+                <a href="https://www.yogaalliance.org/" target="_blank" rel="noreferrer">
                   <div className="yogaallinner"></div>
                 </a>
               </div>

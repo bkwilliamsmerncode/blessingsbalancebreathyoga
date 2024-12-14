@@ -5,10 +5,10 @@ import Lucia from "../../assets/Lucia.jpg"
 import Tony from "../../assets/Tony.jpg"
 import Zoraida from "../../assets/Zoraida.jpg"
 
-import { useNavigate } from "react-router-dom";
+
 
 const AboutContent = () => {
-  const nav = useNavigate();
+
 
   return (
     <>

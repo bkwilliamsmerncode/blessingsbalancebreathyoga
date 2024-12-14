@@ -383,7 +383,7 @@ const InfoContent = () => {
                 </div>
                 <div className="CYM">
                   {" "}
-                  <a href="https://christianyogamagazine.net/" target="_blank">
+                  <a href="https://christianyogamagazine.net/" target="_blank" rel="noreferrer">
                     <img className="cym" src={CYM1} alt="" />
                   </a>
                 </div>
