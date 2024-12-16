@@ -46,7 +46,7 @@ We look forward to you sharing all your incredible talents, skills, education, a
             </div>
 
             <div class="inner-instructor">
-              <img src={Alicia} alt="" />
+              <img src={Alicia} alt="" loading="lazy"/>
             </div>
           </div>
         </div>
@@ -110,10 +110,10 @@ We look forward to you sharing your incredible talents, skills, education, and e
             </div>
 
             <div class="inner-instructor">
-              <img src={Tony} alt="" />
+              <img src={Tony} alt="" loading="lazy"/>
             </div>
             <div class="inner-instructor">
-              <img src={Zoraida} alt="" />
+              <img src={Zoraida} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-instructor">

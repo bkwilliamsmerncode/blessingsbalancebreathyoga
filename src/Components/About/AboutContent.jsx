@@ -12,14 +12,12 @@ const AboutContent = () => {
   return (
     <>
       <div className="xlscreens">
-        <div class="our-instructor">
-          <h1 style={{ marginTop: "60px", fontSize: "50px" }}>
-            Founder & Instructor
-          </h1>
-          <div class="main-instructor">
-            <div class="inner-instructor">
-              <div class="inner-content-instructor">
-                <p style={{ fontSize: "xx-large" }}>Dr. Donna Jagielski</p>{" "}
+        <div className="founder-main">
+          <div className="founder-title">Founder & Instructor</div>
+          <div className="founder-full">
+            <div className="founder-left">
+              <div className="founder-left-inner">
+                <p style={{ fontSize: "xx-large" }}>Dr. Donna Jagielski</p>
                 <br /> <h2>Yoga Training & Education </h2>
                 <p style={{ textAlign: "center", fontSize: "20px" }}>
                   "Lokah Samastah Sukhino Bhavantu"
@@ -52,21 +50,16 @@ const AboutContent = () => {
                 </button>
               </div>
             </div>
-
-            <div class="inner-instructor">
-              <img src={donna5} alt="" />
+            <div className="founder-right">
+              <img src={donna5} alt="" loading="lazy"/>
             </div>
           </div>
-        </div>
-
-        <div class="our-instructor">
-          <div class="main-instructor">
-            <div class="inner-instructor">
-              <img src={donna13} alt="" />
+          <div className="founder-full">
+            <div className="founder-right">
+              <img src={donna13} alt="" loading="lazy"/>
             </div>
-
-            <div class="inner-instructor">
-              <div class="inner-content-instructor">
+            <div className="founder-left">
+              <div className="founder-left-inner">
                 <h2>
                   Education & <br /> Professional Background
                 </h2>
@@ -98,9 +91,12 @@ const AboutContent = () => {
                 </button>
               </div>
             </div>
-            <div class="inner-instructor">
-              <div class="inner-content-instructor">
-                <p style={{ fontSize: "xx-large" }}></p> <br />{" "}
+          </div>
+
+          <div className="founder-full">
+            <div className="founder-left">
+              <div className="founder-left-inner">
+                <p style={{ fontSize: "xx-large" }}></p> <br />
                 <h2>Yoga Philosophy</h2>
                 <p style={{ textAlign: "center", fontSize: "20px" }}>
                   "Be kind, for everyone you meet is fighting a battle you know
@@ -140,8 +136,8 @@ const AboutContent = () => {
               </div>
             </div>
 
-            <div class="inner-instructor">
-              <img src={donna9} alt="" />
+            <div className="founder-right">
+              <img src={donna9} alt="" loading="lazy"/>
             </div>
           </div>
         </div>
