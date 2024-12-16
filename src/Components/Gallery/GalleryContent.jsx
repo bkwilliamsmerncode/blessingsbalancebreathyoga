@@ -43,126 +43,126 @@ const GalleryContent = () => {
           </h1>
           <div class="main-gallery">
             <div class="inner-gallery">
-              <img src={Gallery1} alt="" />
+              <img src={Gallery1} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery2} alt="" />
+              <img src={Gallery2} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery3} alt="" />
+              <img src={Gallery3} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery4} alt="" />
+              <img src={Gallery4} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery5} alt="" />
+              <img src={Gallery5} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery6} alt="" />
+              <img src={Gallery6} alt="" loading="lazy"/>
             </div>
             <div class="inner-gallery">
-              <img src={Gallery7} alt="" />
-            </div>
-
-            <div class="inner-gallery">
-              <img src={Gallery8} alt="" />
+              <img src={Gallery7} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery9} alt="" />
+              <img src={Gallery8} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery10} alt="" />
+              <img src={Gallery9} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery11} alt="" />
+              <img src={Gallery10} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery12} alt="" />
-            </div>
-            <div class="inner-gallery">
-              <img src={Gallery13} alt="" />
+              <img src={Gallery11} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery14} alt="" />
+              <img src={Gallery12} alt="" loading="lazy"/>
+            </div>
+            <div class="inner-gallery">
+              <img src={Gallery13} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery15} alt="" />
+              <img src={Gallery14} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery16} alt="" />
+              <img src={Gallery15} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery17} alt="" />
+              <img src={Gallery16} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery18} alt="" />
-            </div>
-            <div class="inner-gallery">
-              <img src={Gallery19} alt="" />
+              <img src={Gallery17} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery20} alt="" />
+              <img src={Gallery18} alt="" loading="lazy"/>
+            </div>
+            <div class="inner-gallery">
+              <img src={Gallery19} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery21} alt="" />
+              <img src={Gallery20} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery22} alt="" />
+              <img src={Gallery21} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery23} alt="" />
+              <img src={Gallery22} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery24} alt="" />
-            </div>
-            <div class="inner-gallery">
-              <img src={Gallery25} alt="" />
+              <img src={Gallery23} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery26} alt="" />
+              <img src={Gallery24} alt="" loading="lazy"/>
+            </div>
+            <div class="inner-gallery">
+              <img src={Gallery25} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery27} alt="" />
+              <img src={Gallery26} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery28} alt="" />
+              <img src={Gallery27} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery29} alt="" />
+              <img src={Gallery28} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery30} alt="" />
-            </div>
-            <div class="inner-gallery">
-              <img src={Gallery31} alt="" />
+              <img src={Gallery29} alt="" loading="lazy"/>
             </div>
 
             <div class="inner-gallery">
-              <img src={Gallery32} alt="" />
+              <img src={Gallery30} alt="" loading="lazy"/>
+            </div>
+            <div class="inner-gallery">
+              <img src={Gallery31} alt="" loading="lazy"/>
+            </div>
+
+            <div class="inner-gallery">
+              <img src={Gallery32} alt="" loading="lazy"/>
             </div>
           </div>
         </div>

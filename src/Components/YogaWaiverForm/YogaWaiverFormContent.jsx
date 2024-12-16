@@ -8,7 +8,7 @@ const YogaWaiverFormContent = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form1" onSubmit={handleSubmit}>
       <h2>Yoga Waiver 2024</h2>
       <h3>Blessings Balance Breath Yoga (Dr. Donna Jagielski)</h3>
       <h4>Yoga Release And Waiver Of Liability</h4>
