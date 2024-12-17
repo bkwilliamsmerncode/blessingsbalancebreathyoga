@@ -1,26 +1,20 @@
 import React from "react";
 import "./About2.css";
 import Alicia from "../../assets/Alicia.jpg";
-import Lucia from "../../assets/Lucia.jpg"
-import Tony from "../../assets/Tony.jpg"
-import Zoraida from "../../assets/Zoraida.jpg"
-
-
+import Lucia from "../../assets/Lucia.jpg";
+import Tony from "../../assets/Tony.jpg";
+import Zoraida from "../../assets/Zoraida.jpg";
 
 const AboutContent = () => {
-
-
   return (
     <>
       <div className="xlscreens">
-        <div class="our-instructor">
-          <h1 style={{ marginTop: "60px", fontSize: "50px" }}>
-            Board Of Directors
-          </h1>
-          <div class="main-instructor">
-            <div class="inner-instructor">
-              <div class="inner-content-instructor">
-                <h2>Alicia Lammie</h2>
+        <div className="founder-main">
+          <div className="founder-title">Board Of Directors</div>
+          <div className="founder-full">
+            <div className="founder-left">
+              <div className="founder-left-inner">
+              <h2>Alicia Lammie</h2>
                 <br />
                 
                 <p style={{ textAlign: "center", fontSize: "20px" }}>
@@ -41,25 +35,19 @@ Lammie teaches to the whole person with love and without judgment.”
 
 We look forward to you sharing all your incredible talents, skills, education, and experiences with the people we serve. Thank you so much, Alicia, for serving as Director on the Board of Blessings Balance Breath Yoga. We appreciate you! 
                 </p>
-          
               </div>
             </div>
-
-            <div class="inner-instructor">
+            <div className="founder-right">
               <img src={Alicia} alt="" loading="lazy"/>
             </div>
           </div>
-        </div>
-
-        <div class="our-instructor">
-          <div class="main-instructor">
-            <div class="inner-instructor">
-              <img src={Lucia} alt="" />
+          <div className="founder-full">
+          <div className="founder-right">
+              <img src={Lucia} alt="" loading="lazy"/>
             </div>
-
-            <div class="inner-instructor">
-              <div class="inner-content-instructor">
-                <h2>
+            <div className="founder-left">
+              <div className="founder-left-inner">
+              <h2>
                 Lucia Luckett-Kelly
                 </h2>
                 <p style={{ textAlign: "center", fontSize: "20px" }}>
@@ -82,13 +70,13 @@ In addition to serving on the Board of Directors for Blessings Balance Breath Yo
 
 We look forward to you sharing your incredible talents, skills, education, and experiences with the people we serve. Thank you so much, Lucia, for serving as Director on the Board of Blessings Balance Breath Yoga. We appreciate you!
                 </p>
-               
               </div>
             </div>
-            <div class="inner-instructor">
-              <div class="inner-content-instructor">
-                <p style={{ fontSize: "xx-large" }}></p> <br />{" "}
-                <h2>Tony Pham</h2>
+          </div>
+          <div className="founder-full">
+            <div className="founder-left">
+              <div className="founder-left-inner">
+              <h2>Tony Pham</h2>
                 <p style={{ textAlign: "center", fontSize: "20px" }}>
                 Blessings Balance Breath Yoga welcomes Tony Pham, serving on the Board of Directors. 
 
@@ -105,20 +93,19 @@ Tony is excited to bring his dynamic energy and experience to raising the level 
 
 We look forward to you sharing your incredible talents, skills, education, and experiences with the people we serve. Thank you so much, Tony, for serving as Director on the Board of Blessings Balance Breath Yoga. We appreciate you! 
                 </p>
-                
               </div>
             </div>
-
-            <div class="inner-instructor">
+            <div className="founder-right">
               <img src={Tony} alt="" loading="lazy"/>
             </div>
-            <div class="inner-instructor">
+          </div>
+          <div className="founder-full">
+          <div className="founder-right">
               <img src={Zoraida} alt="" loading="lazy"/>
             </div>
-
-            <div class="inner-instructor">
-              <div class="inner-content-instructor">
-                <h2>
+            <div className="founder-left">
+              <div className="founder-left-inner">
+              <h2>
                 Zoraida Salas Allison
                 </h2>
                 <p style={{ textAlign: "center", fontSize: "20px" }}>
@@ -134,11 +121,63 @@ Zoraida Salas-Allison holds a master’s degree in organizational management, an
 
 We look forward to you sharing your incredible talents, skills, education, and experiences with the people we serve. Thank you so much, Zoraida, for serving as Director on the Board of Blessings Balance Breath Yoga. We appreciate you! 
                 </p>
-               
               </div>
             </div>
           </div>
         </div>
+        {/* <div class="our-instructor">
+          <h1 style={{ marginTop: "60px", fontSize: "50px" }}>
+            Board Of Directors
+          </h1>
+          <div class="main-instructor">
+            <div class="inner-instructor">
+              <div class="inner-content-instructor">
+      
+          
+              </div>
+            </div>
+
+            <div class="inner-instructor">
+              <img src={Alicia} alt="" loading="lazy"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="our-instructor">
+          <div class="main-instructor">
+            <div class="inner-instructor">
+              <img src={Lucia} alt="" />
+            </div>
+
+            <div class="inner-instructor">
+              <div class="inner-content-instructor">
+                
+               
+              </div>
+            </div>
+            <div class="inner-instructor">
+              <div class="inner-content-instructor">
+                <p style={{ fontSize: "xx-large" }}></p> <br />{" "}
+            
+                
+              </div>
+            </div>
+
+            <div class="inner-instructor">
+              <img src={Tony} alt="" loading="lazy"/>
+            </div>
+            <div class="inner-instructor">
+              <img src={Zoraida} alt="" loading="lazy"/>
+            </div>
+
+            <div class="inner-instructor">
+              <div class="inner-content-instructor">
+              
+               
+              </div>
+            </div>
+          </div>
+        </div> */}
       </div>
     </>
   );
