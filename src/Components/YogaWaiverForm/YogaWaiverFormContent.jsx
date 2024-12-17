@@ -74,11 +74,12 @@ const YogaWaiverFormContent = () => {
       </div>
 
       {/* Input Fields */}
-      <label htmlFor="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Full Name" required />
+      <label className="label1" htmlFor="name">Name</label>
+      <input className="waiver-input" type="text" id="name" name="name" placeholder="Full Name" required />
 
-      <label htmlFor="address">Street Address</label>
+      <label className="label1" htmlFor="address">Street Address</label>
       <input
+      className="waiver-input"
         type="text"
         id="address"
         name="address"
@@ -86,8 +87,9 @@ const YogaWaiverFormContent = () => {
         required
       />
 
-      <label htmlFor="cityStateZip">City, State & Zip Code</label>
+      <label className="label1" htmlFor="cityStateZip">City, State & Zip Code</label>
       <input
+      className="waiver-input"
         type="text"
         id="cityStateZip"
         name="cityStateZip"
@@ -95,8 +97,9 @@ const YogaWaiverFormContent = () => {
         required
       />
 
-      <label htmlFor="phone">Phone Number</label>
+      <label className="label1" htmlFor="phone">Phone Number</label>
       <input
+      className="waiver-input"
         type="tel"
         id="phone"
         name="phone"
@@ -104,8 +107,9 @@ const YogaWaiverFormContent = () => {
         required
       />
 
-      <label htmlFor="email">Email</label>
+      <label className="label1" htmlFor="email">Email</label>
       <input
+      className="waiver-input"
         type="email"
         id="email"
         name="email"
@@ -116,7 +120,7 @@ const YogaWaiverFormContent = () => {
       {/* Agreement Checkbox */}
       <div className="checkbox-group">
         <input type="checkbox" id="agree" name="agree" required />
-        <label htmlFor="agree">
+        <label className="label1" htmlFor="agree">
           I acknowledge that I have carefully read this agreement and fully
           understand its contents. I voluntarily and knowingly agree to the
           terms and conditions stated herein.
