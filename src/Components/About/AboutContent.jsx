@@ -13,7 +13,7 @@ const AboutContent = () => {
     <>
       <div className="xlscreens">
         <div className="founder-main">
-          <div className="founder-title">Founder & Instructor</div>
+          <div className="founder-title">Founder & CEO</div>
           <div className="founder-full">
             <div className="founder-left">
               <div className="founder-left-inner">
