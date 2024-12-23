@@ -68,11 +68,7 @@ const Navbar = () => {
             <p>Contact</p>
           </Link>
         </li>
-        <li>
-          <Link to="/YogaWaiverForm">
-            <p>Waiver</p>
-          </Link>
-        </li>
+       
       </ul>
       <div className="hamburger" onClick={() => handleModal()}>
         {modal ? (
