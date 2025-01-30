@@ -7,6 +7,7 @@ import About from "./Pages/About";
 import About2 from "./Pages/About2"
 import Classes from "./Pages/Classes"; 
 import Info from "./Pages/Info";
+import Donate from "./Pages/Donate";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/About2" element={<About2 />} />
         <Route path="/Classes" element={<Classes />} />
         <Route path="/Info" element={<Info />} />
+        <Route path="/Donate" element={<Donate />} />
       </Routes>
     </>
   );

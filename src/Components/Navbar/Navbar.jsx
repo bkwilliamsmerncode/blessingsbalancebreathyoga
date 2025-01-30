@@ -65,7 +65,13 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/Contact">
-            <p>Contact</p>
+          <div class="dropdown">
+  <div class="dropbtn"><p>Contact</p></div>
+  <div class="dropdown-content-1">
+    <Link to="/Contact" >Contact</Link>
+    <Link to="/Donate" >Donate</Link>
+  </div>
+</div>
           </Link>
         </li>
        
