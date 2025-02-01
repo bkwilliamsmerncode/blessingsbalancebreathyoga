@@ -4,15 +4,20 @@
     align-items: center;
     justify-content: center;
   width: 100%;
-  height: 900px;
+  height: auto;
+    margin-top: 150px;
+    margin-bottom: 75px;
 }
 
 .donateConatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: whitesmoke;
     border-radius: 10px;
-    border: solid 1px white;
     width: 500px;
-    height: 600px;
+    height: auto;
+    box-shadow: 5px 10px 8px #50706d;
 }
 
 .donateButtonContainer {
@@ -43,3 +48,33 @@
     background: whitesmoke;
     color: var(--mainclr);
 }
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    /* border: solid black 1px; */
+    width: 70%;
+    height: auto;
+}
+
+.textTitle {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.textParagraph {
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.pdfcontainer1 {
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+  }
