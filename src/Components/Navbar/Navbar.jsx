@@ -4,9 +4,7 @@ import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import bbbylogo2 from "../../images/bbbylogo2.png";
 
-
 const Navbar = () => {
-
   const [modal, setModal] = useState(false);
   const [color, setColor] = useState(false);
 
@@ -38,13 +36,15 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/About">
-          <div class="dropdown">
-  <div class="dropbtn"><p>About</p></div>
-  <div class="dropdown-content">
-    <Link to="/About" >Founder</Link>
-    <Link to="/About2" >Board Of Directors</Link>
-  </div>
-</div>
+            <div class="dropdown">
+              <div class="dropbtn">
+                <p>About</p>
+              </div>
+              <div class="dropdown-content">
+                <Link to="/About">Founder</Link>
+                <Link to="/About2">Board Of Directors</Link>
+              </div>
+            </div>
           </Link>
         </li>
         <li>
@@ -65,17 +65,19 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/Contact">
-          <div class="dropdown">
-  <div class="dropbtn"><p>Contact</p></div>
-  <div class="dropdown-content-1">
-    <Link to="/Contact" >Contact</Link>
-    <Link to="/Donate" >Donate</Link>
-  </div>
-</div>
+            <div class="dropdown">
+              <div class="dropbtn">
+                <p>Contact</p>
+              </div>
+              <div class="dropdown-content-1">
+                <Link to="/Contact">Contact</Link>
+                <Link to="/Donate">Donate</Link>
+              </div>
+            </div>
           </Link>
         </li>
-       
       </ul>
+
       <div className="hamburger" onClick={() => handleModal()}>
         {modal ? (
           <FaTimes size={20} style={{ color: "black", fontSize: "xx-large" }} />
