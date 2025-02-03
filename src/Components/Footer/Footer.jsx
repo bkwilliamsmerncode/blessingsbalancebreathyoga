@@ -40,11 +40,8 @@ const Footer = () => {
             </div>
             <div className="right">
             <p>Site by Brian K. Williams Full-Stack Web Developer</p>
-            <p style={{display: "flex", alignItems: "center"}}>
-              <FaRegCopyright /> A 501(c)(3) Organization. EIN: 33-1997810 Blessings Balance Breath Yoga 2024
-            </p>
-            <br />
-            <br />
+            <p className="copyRight"><FaRegCopyright /> A 501(c)(3) Organization. EIN: 33-1997810 Blessings Balance Breath Yoga 2024</p>
+
             <br />
             <br />
             <div className="social">
@@ -90,28 +87,26 @@ const Footer = () => {
           </div>
           <div className="footerRight">
           
-       
-          <div className="donateButtonContainer">
+       <div className="footerRightContent">
+        <p style={{fontSize: "20px"}}>Ways to give to Blessings Balance Breath Yoga</p>
+        <br />
+        <br />
+        <p style={{fontSize: "20px"}}>Zelle:</p>
+        <p style={{fontSize: "20px"}}>blessingsbalancebreathyoga@gmail.com</p>
+        <br />
+        <br />
+        <p style={{fontSize: "20px"}}>Checks Mailed To:</p>
+        <p style={{fontSize: "20px"}}>Blessings Balance Breath Yoga</p>
+        <p style={{fontSize: "20px"}}>3961 East Chandler Blvd Suite 111</p>
+        <p style={{fontSize: "20px"}}>PMB #183</p>
+        <p style={{fontSize: "20px"}}>Phoenix, AZ 85048</p>
+<br />
+<br />
             <button className="donateButton">Donate Now!</button>
-          </div>
-          <div className="textContainer">
-            <p className="textTitle">
-              Ways to give to Blessings Balance Breath Yoga
-            </p>
-            <p className="textParagraph">
-              Zelle: blessingsbalancebreathyoga@gmail.com
-            </p>
-            <p>Checks mailed to:</p>
-            <p className="textParagraph">Blessings Balance Breath Yoga</p>
-            <p className="textParagraph">3961 East Chandler Blvd Suite 111</p>
-            <p className="textParagraph">PMB #183</p>
-            <p className="textParagraph">Phoenix, AZ 85048</p>
-          </div>
+      
+       </div>
 
-         
 
-       
-     
         </div>
       </div>
     </div>

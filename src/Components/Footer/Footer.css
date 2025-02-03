@@ -22,10 +22,18 @@
 .footerRight {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
   /* border: solid 1px black; */
   width: 45%;
+  margin-right: 10px;
+}
+
+.footerRightContent {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  align-items: flex-end;
 }
 
 .location {
@@ -67,7 +75,7 @@
 .social {
   margin-top: 1rem;
   display: flex;
-   justify-content: start; 
+   justify-content: flex-start; 
   align-items: center;
 }
 
@@ -107,10 +115,62 @@ h4 {
   background-position: center;
 }
 
+.copyRight {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
 
-/* 
-@media screen and (max-width: 640px) {
-  .footer-container {
-    grid-template-columns: 1fr;
+@media  (max-width: 1200px) {
+  .footerContainer {
+    flex-direction: column;
+    height: auto;
   }
-}  */
+
+  .footerLeft {
+    width: 100%;
+  }
+
+  .footerRight {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footerRightContent {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .copyRight {
+    text-align: center;
+  }
+
+  .right {
+    align-items: center;
+  }
+
+  .left {
+    align-items: center;
+  }
+
+  .location {
+    justify-content: center;
+  }
+
+  .email {
+    justify-content: center;
+  }
+
+  .social {
+    justify-content: center;
+  }
+
+  .logo2 {
+    margin-top: 20px;
+  }
+  
+}
