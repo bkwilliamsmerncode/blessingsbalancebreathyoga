@@ -1,12 +1,12 @@
 import React from "react";
 import "./DonateContent.css";
-import art1 from "../../images/articalcover1.png";
-import pdf6 from "../../assets/artical6.pdf";
+import pdf16pic from "../../assets/pdf16pic.png";
+import pdf16 from "../../assets/pdf16.pdf";
 
 const DonateContent = () => {
 
   const handleClick1 = () => {
-    window.open(pdf6);
+    window.open(pdf16);
   };
 
   return (
@@ -31,7 +31,7 @@ const DonateContent = () => {
           </div>
 
           <div className="pdfcontainer1" onClick={handleClick1}>
-                <img className="eventimg" src={art1} alt="" />
+                <img className="eventimg" src={pdf16pic} alt="" />
               </div>
 
         </div>
